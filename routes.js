@@ -18,7 +18,7 @@ class Home extends React.Component {
       <div>
         <h1>Home</h1>
         <ul>
-          <li><Link to="article" params={{ id: 1 }}>Article 1</Link></li>
+          <li><Link to="article" params={{ id: 1 }}>Post 1</Link></li>
           <li><Link to="article" params={{ id: 2 }}>Article 2</Link></li>
           <li><Link to="article" params={{ id: 3 }}>Article 3</Link></li>
           <li><Link to="article" params={{ id: 4 }}>Article 4</Link></li>
