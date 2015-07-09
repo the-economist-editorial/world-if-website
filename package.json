@@ -22,6 +22,10 @@
       ]
     ]
   },
+  "stats": {
+    "build_number": "__dev__",
+    "commit_id": "__dev__"
+  },
   "config": {
     "analytics_domain": "auto",
     "analytics_id": "UA-XXXXX-X",
@@ -37,7 +41,7 @@
   "scripts": {
     "start": "node server.js",
     "watch": "nodemon -x \"npm run build; npm start\" -i assets -i node_modules/ -e js,html,css",
-    "build": "parallelshell \"npm run build:inlinejs\" \"npm run build:inlinecss\" \"npm run build:js\" \"npm run build:css\" \"npm run build:assets\"",
+    "build": "parallelshell \"npm run build:inlinejs\" \"npm run build:inlinecss\" \"npm run build:js\" \"npm run build:css\" \"npm run build:assets\" \"npm run version\"",
     "build:js": "cd assets && browserify -d ../client.js | hashmark -l 8 -m ../js-assets.json -n client.js '{hash}{ext}'",
     "build:css": "cd assets && postcss -u cssnext -u postcss-nesting -u cssnano ../index.css | hashmark -l 8 -m ../css-assets.json -n style.css '{hash}{ext}'",
     "build:assets": "npm-assets ${server_assets_dir:-${npm_package_config_server_assets_dir}}",
@@ -45,6 +49,7 @@
     "build:inlinejs": "echo [] > js-inline.json && npm run build:analytics",
     "build:analytics": "CONTENTS=\"$(isogram worldif -md $npm_package_config_analytics_domain -i $npm_package_config_analytics_id)\" TYPE=\"js\" npm run push:inline",
     "push:inline": "json -If ${TYPE}-inline.json -Ae \"this.push(process.env.CONTENTS)\"",
+    "version": "json -f package.json -Ae \"this.stats.build_number='${CI_BUILD_NUMBER:-__dev__}';this.stats.commit_id='${CI_COMMIT_ID:-__dev__}'\"",
     "args": "echo $@",
     "lint": "eslint $npm_package_config_lint_opts .",
     "serve": "npm run prestart && nodemon",

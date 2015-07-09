@@ -3,10 +3,15 @@
 require('babel/register');
 var config = require('npcp');
 var path = require('path');
+var packagejson = require('./package');
 var log = require('bunyan-request-logger')({
-  name: require('./package').name,
+  name: packagejson.name,
 });
 var template = require('handlebars').compile(require('fs').readFileSync('layout.html', 'utf8'));
+var stats = packagejson.stats;
+stats.name = packagejson.name;
+stats.version = packagejson.version;
+stats = JSON.stringify(stats);
 // connect and middleware
 module.exports = require('connect')()
   .use(require('serve-favicon')(
@@ -16,6 +21,10 @@ module.exports = require('connect')()
     level: 9,
   }))
   .use(log.requestLogger())
+  .use('/_stats', function sendStats(request, response) {
+    response.setHeader('Content-Type', 'application/json');
+    response.end(stats);
+  })
   .use('/' + config.server.assets.uri, require('st')({
     path: path.resolve(config.server.root, config.server.assets.dir),
     gzip: false,
