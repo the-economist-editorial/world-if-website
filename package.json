@@ -78,6 +78,7 @@
     "@economist/component-testharness": "^1.0.0",
     "babelify": "^6.1.2",
     "browserify": "^10.2.4",
+    "cssnano": "^2.0.3",
     "cssnext": "^1.8.0",
     "envify": "^3.4.0",
     "eslint": "^0.24.0",
