@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
     <title>The World If</title>
-    <noscript>
+    <noscript id="async-css">
       {{#each assets.css.files}}
         <link rel="stylesheet" href="/assets/{{this}}" data-style-name="{{@key}}"/>
       {{/each}}
@@ -24,6 +24,6 @@
     {{#each assets.js.files}}
       <script src="/assets/{{this}}" data-script-name="{{@key}}" async></script>
     {{/each}}
-    <script>!function(c,r,i,t){for(i in r){t=c.createElement('link');t.rel='stylesheet';t.href='/assets/'+r[i];c.getElementsByTagName('head')[0].appendChild(t);}}(document,[{{#each assets.css.files}}'{{this}}'{{/each}}]);</script>
+    <script>document.head.innerHTML+=document.getElementById('async-css').textContent;</script>
   </body>
 </html>
