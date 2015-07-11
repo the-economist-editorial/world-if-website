@@ -49,7 +49,7 @@
     "build:inlinejs": "echo [] > js-inline.json && npm run build:analytics",
     "build:analytics": "CONTENTS=\"$(isogram worldif -md $npm_package_config_analytics_domain -i $npm_package_config_analytics_id)\" TYPE=\"js\" npm run push:inline",
     "push:inline": "json -If ${TYPE}-inline.json -Ae \"this.push(process.env.CONTENTS)\"",
-    "version": "json -f package.json -Ae \"this.stats.build_number='${CI_BUILD_NUMBER:-__dev__}';this.stats.commit_id='${CI_COMMIT_ID:-__dev__}'\"",
+    "version": "json -f package.json -IAe \"this.stats.build_number='${CI_BUILD_NUMBER:-__dev__}';this.stats.commit_id='${CI_COMMIT_ID:-__dev__}'\"",
     "args": "echo $@",
     "lint": "eslint $npm_package_config_lint_opts .",
     "serve": "npm run prestart && nodemon",
