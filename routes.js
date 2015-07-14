@@ -1,16 +1,8 @@
 import { Route, Link, RouteHandler } from 'react-router';
 import React from 'react';
+import App from '@economist/world-if-app';
 
-class App extends React.Component {
-  render() {
-    return (
-      <div>
-        <h1>Application!</h1>
-        <RouteHandler/>
-      </div>
-    );
-  }
-}
+App.setDefaultRouteHandler(<RouteHandler/>);
 
 class Home extends React.Component {
   render() {
