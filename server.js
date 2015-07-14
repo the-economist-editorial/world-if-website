@@ -8,6 +8,7 @@ var contentjson = require('./content');
 var log = require('bunyan-request-logger')({
   name: packagejson.name,
 });
+log.info(config, 'booting with config');
 var template = require('handlebars').compile(require('fs').readFileSync('layout.html', 'utf8'));
 var stats = packagejson.stats;
 stats.name = packagejson.name;
