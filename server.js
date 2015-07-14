@@ -4,6 +4,7 @@ require('babel/register');
 var config = require('npcp');
 var path = require('path');
 var packagejson = require('./package');
+var contentjson = require('./content');
 var log = require('bunyan-request-logger')({
   name: packagejson.name,
 });
@@ -25,6 +26,9 @@ module.exports = require('connect')()
     response.setHeader('Content-Type', 'application/json');
     response.end(stats);
   })
+  .use('/content', require('@economist/connect-filter-jsonapi')({
+    content: contentjson.data[0].relationships.posts.data
+  }))
   .use('/' + config.server.assets.uri, require('st')({
     path: path.resolve(config.server.root, config.server.assets.dir),
     gzip: false,
@@ -33,6 +37,7 @@ module.exports = require('connect')()
     routes: require('./routes'),
     template: function processTemplate(html) {
       return template({
+        content: contentjson.data[0],
         assets: {
           'css': {
             files: require('./css-assets'),

@@ -1,0 +1,131 @@
+{
+  "links": {
+    "self": "http://economist.com/microsites/world-if"
+  },
+  "data": [
+    {
+      "type": "microsite",
+      "id": "1",
+      "attributes": {
+        "title": "World If",
+        "metaTags": [
+          {
+            "property": "og_title",
+            "content": "The post title"
+          },
+          {
+            "property": "og_description",
+            "content": "Some description of the post"
+          },
+          {
+            "property": "og_image",
+            "content": "http://worldin:8082/sites/worldin/files/Screen%20Shot%202015-05-21%20at%203.57.50%20PM.png"
+          }
+        ]
+      },
+      "relationships": {
+        "posts": {
+          "links": {
+            "self": "http://economist.com/microsites/world-if/posts"
+          },
+          "data": [
+            {
+              "type": "posts",
+              "id": "1",
+              "attributes": {
+                "metaTags": [
+                  {
+                    "property": "og_title",
+                    "content": "The post title"
+                  },
+                  {
+                    "property": "og_description",
+                    "content": "Some description of the post"
+                  },
+                  {
+                    "property": "og_image",
+                    "content": "http://worldin:8082/sites/worldin/files/Screen%20Shot%202015-05-21%20at%203.57.50%20PM.png"
+                  }
+                ],
+                "section": "Politics",
+                "mainimage": "http://worldin:8082/sites/worldin/files/Screen%20Shot%202015-05-21%20at%203.57.50%20PM.png",
+                "title": "The post title",
+                "flytitle": "The flytitle",
+                "content": [
+                  "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
+                  "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+                  {
+                      "component": "VideoPlayer",
+                      "props": {
+                        "iid": 86839,
+                        "vid": 12345,
+                        "width": 595,
+                        "height": 400
+                      },
+                      "content": []
+                  },
+                  "Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.",
+                  "Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.",
+                  "Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.",
+                  "Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.",
+                  "Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.",
+                  "Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.",
+                  "Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.",
+                  "Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,"
+                ]
+              }
+            },
+            {
+              "type": "posts",
+              "id": "2",
+              "attributes": {
+                "metaTags": [
+                  {
+                    "property": "og_title",
+                    "content": "The post title"
+                  },
+                  {
+                    "property": "og_description",
+                    "content": "Some description of the post"
+                  },
+                  {
+                    "property": "og_image",
+                    "content": "http://worldin:8082/sites/worldin/files/Screen%20Shot%202015-05-21%20at%203.57.50%20PM.png"
+                  }
+                ],
+                "section": "Politics",
+                "mainimage": "http://worldin:8082/sites/worldin/files/Screen%20Shot%202015-05-21%20at%203.57.50%20PM.png",
+                "title": "The new Conservatism",
+                "flytitle": "George Osborne’s political vision is brave, bold—and on many counts wrong",
+                "content": [
+                  "BRITAIN’S chancellor is credited with turning received wisdom on its head. George Osborne steered the Conservative party to a stunning, if narrow, majority in May, because of—not despite—painful cuts and the promise of more. Britain is now growing faster than any of its G7 peers, employment is at record levels, and wages are rising. The opposition Labour Party is in disarray; the Tories in raptures. Unthinkable a couple of years ago, the austerity chancellor is now Britain’s most likely next prime minister.",
+                  "On July 8th Mr Osborne rose to give the budget—his seventh, and the first by a majority Conservative government in 19 years—and outline what he called a “new settlement” for Britain (see article). He announced plans to cut the deficit further, while trimming rates for business, slashing inheritance tax and furthering radical devolution to England’s neglected cities. Boldest of all, he declared an overhaul of the welfare system, replacing benefits with a higher minimum wage. With this, and measures to raise the personal tax allowance and double free child care for parents, he marched his party onto ground once considered too left wing even for Labour.",
+                  "Mr Osborne’s rebranding of the Tories as the party of working people, chasing poor, northern votes that Labour has long taken for granted, is welcome and impressive. So is the alchemy by which he has turned fiscal rectitude into a vote-winner—other European countries should take note. Yet this was a budget whose slick politics hid economics that were often wrong and sometimes dangerous. The flagship substitution of tax credits for wage floors is a bad mistake; cutting benefits to the very poor while reducing inheritance tax for the wealthy is indefensible. And when it came to low productivity and strangled housing supply, the biggest economic questions facing Britain, the bold Mr Osborne had too little to say.",
+                  {
+                    "component": "ArticleSubHead",
+                    "props": {},
+                    "content": ["George’s marvellous medicine"]
+                  },
+                  "The budget began with a sensible admission of austerity’s limits. Mr Osborne originally planned to bring the public finances screeching back into the black by 2018-19. He rightly changed his mind. Britain’s deficit will be 3.7% of GDP this year—sizeable, but not crushing. The country has plenty of fiscal wiggle room, as the IMF’s economists have pointed out. Growth should do much to reduce borrowing. Mr Osborne’s decision to extend his deadline by a year, to 2019-20, was correct.",
+                  "So was the decision to add defence to the departments protected from cuts. Britain will now meet NATO’s target of spending 2% of GDP on defence each year, to sighs of relief in a Washington worried about European firepower. Letting university tuition fees rise in line with inflation will help English universities to stay at the top of international league tables (in contrast to Scotland, whose once-proud colleges are buckling under a policy of free higher education). And cutting corporation tax, from 20% to 18% by 2020, will bring business to Britain.",
+                  "Then things took a turn for the barmy. In perhaps the daftest economic policy of the decade, inheritance tax was cut—but only on houses. A new allowance for homes means that estates worth up to £1m ($1.5m) will escape taxation. Even if dead millionaires were good candidates for tax breaks—doubtful, especially given fiscal pressures—there is no good economic reason to privilege houses over other assets. Indeed, the policy will encourage the well-off to buy bigger homes. In a country facing a severe housing shortage, that is irresponsible.",
+                  "Going easy on heirs and heiresses also damages Mr Osborne’s claim to stand for working people. To this, he had a bold answer: the shake-up of welfare. He has long promised to cut £12 billion from the welfare budget, having already pared it back by £25 billion since 2010. As expected, many of the cuts were achieved by reducing tax credits, wage top-ups for low earners. In their place will come a “national living wage” of £7.20 per hour, due to rise to £9 by 2020.",
+                  "This is radical—especially from a Tory government—but it is mistaken. Minimum wages do little harm when low, but create unemployment as they rise—indeed, Mr Osborne admitted that the higher wage floor would cost 60,000 jobs. Tax credits, by contrast, are an incentive to hiring. Some complain that they subsidise employers, but around three-quarters of the benefit goes to employees. Despite its fanfare, the new “living wage” is fairly modest. But swapping tax credits for minimum wages as a policy for alleviating poverty could do enormous damage in a world where firms are increasingly buying technology rather than paying workers. Ask France, with a generous minimum wage—and joblessness of more than 10%.",
+                  {
+                    "component": "ArticleSubHead",
+                    "props": {},
+                    "content": ["The twits"]
+                  },
+                  "Mr Osborne makes much of “fairness”, but his cuts to welfare are skewed by outrageous favouritism. Despite austerity, the basic state pension has grown by 16% since 2010. Such rises benefit rich rather than poor oldies, since other benefits raise the incomes of the less well-off above the state pension. If he were serious about shrinking the state, Mr Osborne would have cut the pensions of the better-off; but the elderly vote.",
+                  "Instead he curtailed worthier spending. Productivity, which has been flat since the crisis of 2008, needs investment. Mr Osborne announced a fund for roads, to be paid for by car tax. But a fortnight earlier a planned rail upgrade to link northern cities was put on hold for lack of funds. The same fate may await other plans to boost productivity.",
+                  "Nor were there answers to the housing shortage. Mr Osborne said that a tax break for buy-to-let landlords would be cut, which may ease pressure on prices. And, in a diktat that could have come from Ed Miliband, Labour’s former leader, he ordered social housing providers to cut their rents by 1% a year. These steps do not come close to solving the housing crisis, which will need a shake-up of planning laws.",
+                  "It was a beguiling budget: policies of the left given a Conservative justification, and cuts recast as a reshaping of the state. In the past five years Mr Osborne has played a dreadful hand well. But this was a budget built on economic mistakes. The chancellor’s revamped Conservatism is characteristically daring. Economically, it is disappointingly thin."
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
