@@ -44,7 +44,7 @@
     "build": "parallelshell \"npm run build:inlinejs\" \"npm run build:inlinecss\" \"npm run build:js\" \"npm run build:css\" \"npm run build:assets\" \"npm run version\"",
     "build:js": "cd assets && browserify -d ../client.js | hashmark -l 8 -m ../js-assets.json -n client.js '{hash}{ext}'",
     "build:css": "cd assets && postcss -u cssnext -u postcss-nesting -u cssnano ../index.css | hashmark -l 8 -m ../css-assets.json -n style.css '{hash}{ext}'",
-    "build:assets": "npm-assets ${server_assets_dir:-${npm_package_config_server_assets_dir}}",
+    "build:assets": "npm-assets .",
     "build:inlinecss": "echo [] > css-inline.json",
     "build:inlinejs": "echo [] > js-inline.json && npm run build:analytics",
     "build:analytics": "CONTENTS=\"$(isogram worldif -md $npm_package_config_analytics_domain -i $npm_package_config_analytics_id)\" TYPE=\"js\" npm run push:inline",
@@ -58,7 +58,7 @@
     "test:watch": "npm run test:base -- -wR min"
   },
   "dependencies": {
-    "@economist/component-world-if-app": "^1.1.0",
+    "@economist/component-world-if-app": "^2.0.0",
     "@economist/connect-react-router-middleware": "^1.0.0",
     "bunyan": "^1.4.0",
     "bunyan-middleware": "^0.2.0",
@@ -92,7 +92,7 @@
     "json": "^9.0.3",
     "mocha": "^2.2.5",
     "nodemon": "^1.3.7",
-    "npm-assets": "0.0.1",
+    "npm-assets": "^0.1.0",
     "parallelshell": "^1.2.0",
     "postcss": "^4.1.15",
     "postcss-cli": "^1.3.1",

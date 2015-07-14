@@ -1,8 +1,12 @@
 import { Route, Link, RouteHandler } from 'react-router';
 import React from 'react';
-import App from '@economist/world-if-app';
+import App from '@economist/component-world-if-app';
 
-App.setDefaultRouteHandler(<RouteHandler/>);
+class RouteWrapper extends React.Component {
+  render() {
+    return (<App><RouteHandler/></App>);
+  }
+}
 
 class Home extends React.Component {
   render() {
@@ -43,7 +47,7 @@ class NotFound extends React.Component {
 }
 
 export default (
-  <Route path="/" handler={App}>
+  <Route path="/" handler={RouteWrapper}>
     <Route name="home" path="/" handler={Home}/>
     <Route name="article" path="article/:id" handler={Article}/>
     <Route name="404" path="*" handler={NotFound}/>
