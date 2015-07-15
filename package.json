@@ -1,5 +1,6 @@
 {
   "name": "@economist/world-if-website",
+  "private": true,
   "version": "1.0.0",
   "description": "The World If website",
   "author": "The Economist (http://economist.com)",
