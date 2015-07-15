@@ -61,7 +61,7 @@
   "dependencies": {
     "@economist/component-articletemplate": "^1.0.1",
     "@economist/component-world-if-app": "^2.0.0",
-    "@economist/connect-filter-jsonapi": "^1.0.0",
+    "@economist/connect-filter-jsonapi": "^1.0.1",
     "@economist/connect-react-router-middleware": "^1.0.0",
     "bunyan": "^1.4.0",
     "bunyan-middleware": "^0.2.0",
