@@ -57,10 +57,11 @@
     "test:watch": "npm run test:base -- -wR min"
   },
   "dependencies": {
-    "@economist/component-articletemplate": "^1.0.1",
+    "@economist/component-articletemplate": "^2.0.1",
     "@economist/component-world-if-app": "^2.0.0",
     "@economist/connect-filter-jsonapi": "^1.0.1",
     "@economist/connect-react-router-middleware": "^1.0.0",
+    "babel": "^5.5.8",
     "bunyan": "^1.4.0",
     "bunyan-middleware": "^0.2.0",
     "bunyan-request-logger": "^1.0.1",
@@ -73,7 +74,6 @@
     "react": "^0.13.3",
     "react-router": "^0.13.3",
     "serve-favicon": "^2.3.0",
-    "babel": "^5.5.8",
     "st": "^0.5.4"
   },
   "devDependencies": {
