@@ -16,10 +16,6 @@
         {
           "stage": 0
         }
-      ],
-      [
-        "envify",
-        {}
       ]
     ]
   },
@@ -41,9 +37,11 @@
   },
   "scripts": {
     "start": "node server.js",
-    "watch": "nodemon -x \"npm run build; npm start\" -i assets -i node_modules/ -e js,html,css",
-    "build": "parallelshell \"npm run build:inlinejs\" \"npm run build:inlinecss\" \"npm run build:js\" \"npm run build:css\" \"npm run build:assets\" \"npm run version\"",
-    "build:js": "cd assets && browserify -d ../client.js | hashmark -l 8 -m ../js-assets.json -n client.js '{hash}{ext}'",
+    "watch": "nodemon -x \"npm run build; npm start | bunyan\" -i assets -i node_modules/ -e js,html,css",
+    "clean": "rm assets/* && git checkout assets/favicon.ico",
+    "build": "parallelshell \"npm run build:inlinejs\" \"npm run build:inlinecss\" \"npm run build:js\" \"npm run build:vendorjs\" \"npm run build:css\" \"npm run build:assets\" \"npm run version\"",
+    "build:js": "cd assets && browserify `test \"$NODE_ENV\" != \"production\" && echo '-d'` -g envify -g uglifyify -x react ../client.js | hashmark -l 8 -m ../js-assets.json -n client.js '{hash}{ext}'",
+    "build:vendorjs": "cd assets && browserify -r react -g envify -g uglifyify | hashmark -l 8 -m ../js-assets.json -n 0vendor.js '{hash}{ext}'",
     "build:css": "cd assets && postcss -u cssnext -u postcss-nesting -u cssnano ../index.css | hashmark -l 8 -m ../css-assets.json -n style.css '{hash}{ext}'",
     "build:assets": "npm-assets .",
     "build:inlinecss": "echo [] > css-inline.json",
@@ -100,7 +98,8 @@
     "postcss": "^4.1.15",
     "postcss-cli": "^1.3.1",
     "postcss-nesting": "^0.1.0",
-    "pre-commit": "^1.0.10"
+    "pre-commit": "^1.0.10",
+    "uglifyify": "^3.0.1"
   },
   "pre-commit": [
     "lint"
