@@ -35,43 +35,90 @@
               "attributes": {
                 "metaTags": [
                   {
-                    "property": "og_title",
-                    "content": "The post title"
+                    "property": "og:type",
+                    "content": "article"
                   },
                   {
-                    "property": "og_description",
-                    "content": "Some description of the post"
+                    "property": "og:title",
+                    "content": "The first 100 days"
                   },
                   {
-                    "property": "og_image",
+                    "property": "og:description",
+                    "content": "If Hillary Clinton is president"
+                  },
+                  {
+                    "property": "og:image",
                     "content": "http://worldin:8082/sites/worldin/files/Screen%20Shot%202015-05-21%20at%203.57.50%20PM.png"
+                  },
+                  {
+                    "property": "article:published_time",
+                    "content": "2015-07-24T09:00:00.000Z"
+                  },
+                  {
+                    "property": "article:modified_time",
+                    "content": "2015-07-24T09:00:00.000Z"
+                  },
+                  {
+                    "property": "article:tag",
+                    "content": "politics"
+                  },
+                  {
+                    "property": "article:tag",
+                    "content": "Hillary Clinton"
+                  },
+                  {
+                    "name": "twitter:card",
+                    "content": "summary_large_image"
+                  },
+                  {
+                    "name": "twitter:title",
+                    "content": "The first 100 days"
+                  },
+                  {
+                    "name": "twitter:description",
+                    "content": "If Hillary Clinton is president"
+                  },
+                  {
+                    "name": "twitter:image:src",
+                    "content": "http://blog.keithcirkel.co.uk/content/images/2015/07/npm.png"
                   }
                 ],
                 "section": "Politics",
                 "mainimage": "http://worldin:8082/sites/worldin/files/Screen%20Shot%202015-05-21%20at%203.57.50%20PM.png",
-                "title": "The post title",
-                "flytitle": "The flytitle",
+                "title": "The first 100 days",
+                "flytitle": "If Hillary Clinton is president",
                 "content": [
-                  "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
-                  "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+                  "AMERICA’S first woman president won last November by taking two large risks, transforming an election campaign that had seemed to be slipping away from her. One of those gambles, her hard-edged response to the Cuban-refugee crisis and post-Castro turmoil on that island, may yet pay off for her. The second, her populist \"Contract with the Middle Class\", has hit early turbulence, bogging down the rest of her domestic programme.",
                   {
-                      "component": "VideoPlayer",
-                      "props": {
-                        "iid": 86839,
-                        "vid": 12345,
-                        "width": 595,
-                        "height": 400
-                      },
-                      "content": []
+                    "component": "PullQuote",
+                    "props": {},
+                    "content": ["Pessimists argue that Mrs Clinton’s relations with Congress are souring faster than expected"]
                   },
-                  "Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.",
-                  "Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.",
-                  "Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.",
-                  "Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.",
-                  "Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.",
-                  "Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.",
-                  "Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.",
-                  "Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,"
+                  "One hundred days into Hillary Clinton’s presidency, pundits have been quick to note the irony. A politician long called overly cautious has spent her first months in office dealing with the fallout from acts of campaign-trail boldness. The 45th president this week tried to laugh off reports that her husband, Bill Clinton, told a private gathering of Silicon Valley bosses that “all this stuff is costing Hillary her honeymoon as president.” The First Gentleman says that he was misquoted. Mrs Clinton began a White House lunch with women senators by joking: “This president came here to work, not have a honeymoon.” But Mr Clinton is right. Most presidents arrive in office able to set the agenda, at least for a while. This president is being buffeted by events.",
+                  "Start with Cuba, epicentre of the crisis that so destabilised the presidential campaign of Mrs Clinton’s Republican rival, Marco Rubio. It has been months since TV screens were filled each night with scenes of American coastguard and naval ships pulling desperate balseros (rafters) from the sea. A recent Gallup poll showed that 74% of Americans now support Mrs Clinton’s policy of suspending all applications for asylum by Cubans, at least while talks continue on organising free elections on the island. Since taking office Mrs Clinton has not wavered from the line that she adopted as a candidate last October, as the Castro era came to a chaotic and unexpectedly rapid end. As she said in a presidential debate with Mr Rubio: \"There are 11m Cubans. They deserve a free and prosperous homeland, not empty promises that they can all move to America.\"",
+                  "To this day Mr Rubio’s admirers accuse Mrs Clinton of using a \"racist\" strategy to drive a wedge between Cuban-Americans and other Hispanic voters. They are especially angry with Vice-President Tim Kaine, a former governor and senator from Virginia who learned Spanish as a missionary in Central America, for his declaration on the campaign trail that \"Cubans deserve our sympathy, but they are not our only neighbours\"—a line that Republicans called blatant pandering to Mexican-Americans.",
+                  "Now, with the election a distant memory, Republicans in Congress remain divided over the other half of Mrs Clinton’s outreach to Latinos: her promise to send a comprehensive immigration bill to Congress during her first year in office.",
+                  {
+                    "component": "ArticleSubHead",
+                    "props": {},
+                    "content": ["Something’s gotta give"]
+                  },
+                  "TWith the Senate divided 50-50, giving Democrats a tiny edge when Mr Kaine casts a deciding vote as vice-president, and the House still firmly controlled by Republicans, Mrs Clinton will need bipartisan support (indeed a miracle, some would say) to get any bill passed. Optimists argue that Republicans simply cannot ignore America’s growing diversity. Mrs Clinton not only held Mr Rubio—the first Latino presidential candidate—to 35% of the Hispanic vote, she narrowly defeated him in Florida, his home state. In his dignified concession speech Mr Rubio reminded his party that almost a million American teenagers of Hispanic origin reach voting age every year, giving Latinos and other immigrants a voice that \"cannot be ignored\".",
+                  "Optimists also point to Mrs Clinton’s pragmatic streak. She has wooed moderate Republicans by ditching her election promise to seek full citizenship for undocumented migrants now in the country. Legal status is already a huge advance for those living in the shadows, Mrs Clinton says.",
+                  "Pessimists argue that Mrs Clinton’s relations with Congress are souring faster than expected. She campaigned as a Washington insider who is \"not too grand to go to Capitol Hill and cut deals\", in a none-too-subtle rebuke of her predecessor, Barack Obama. Her first weeks saw some successes, among them the easy Senate confirmation of the treasury secretary, Jason Furman, the defence secretary, Michèle Flournoy, and her national-security adviser, Jake Sullivan. She scored a further coup with the surprise appointment of a Republican as her secretary of state. Mrs Clinton nominated Senator Bob Corker of Tennessee, who as chairman of the Senate Foreign Relations Committee earned a reputation as a thoughtful dealmaker.",
+                  "During confirmation hearings Mr Corker came under fire from some in his own party, notably Senator Ted Cruz of Texas, who quoted comments Mr Corker had made questioning Mr Obama’s dealmaking with Iran. Mr Cruz suggested to Mr Corker that he is a “decoy duck”, recruited to lead fellow-Republicans to ignore their qualms about the nuclear pact. Still, Mr Corker was eventually confirmed 68-28.",
+                  "But it did not take long for Mrs Clinton and Congress to find reasons for mutual suspicion. Audible mockery greeted the arrival in the Senate of a new, appointed member to represent Virginia, to fill the vacancy left by Mr Kaine’s election as vice-president. The interim appointment was in the hands of Virginia’s governor, Terry McAuliffe, who duly chose himself. Senator McAuliffe will need to seek direct election at the next general election in 2018 if he decides to remain in Congress. Until then even some Democratic senators have questioned their new colleague’s past as a chief fundraiser for Bill Clinton. \"Don’t enough Americans think we are all bought and paid for?\" asks a centrist Democrat.",
+                  "Such ill-will will do little to help the Contract with the Middle Class. Mrs Clinton delighted Democrats by backing a rise in the federal minimum wage to $15 an hour and calling for working mothers to enjoy two months’ paid leave after giving birth or adopting a child. Amid Republican cries that she would lead America down a “European” path to bankruptcy, few voters examined the contract’s fine print.",
+                  "The scrutiny has started now. Walmart, America’s largest private employer, said in March that it might have to automate many checkout lines in its stores if the federal minimum wage was raised to $15, well above the $10 that the store currently offers its lowest-paid staff. A report by the non-partisan Congressional Budget Office (CBO) gave warning that in the short term a higher federal minimum wage might cost as many as 2m jobs. The White House pointed to the report’s predictions of more benign long-term effects, as higher salaries led to more consumer spending. But the CBO report could be ready-made for makers of TV attack ads.",
+                  "The president’s plans for paid maternal leave are also in doubt. Asked to explain the origins of her pledge, a former campaign strategist for Mrs Clinton calls it “nuts” that America, unusually among rich countries, does not offer a nationwide right to maternity leave. “Also, we were losing the election,” adds the strategist, noting that almost as soon as the plan was unveiled, Mrs Clinton’s vote share grew sharply among married women voters.",
+                  {
+                    "component": "ArticleSubHead",
+                    "props": {},
+                    "content": ["It’s complicated"]
+                  },
+                  "The Contract with the Middle Class calls for the costs of maternity leave to be met by a new quasi-insurance fund, with contributions from employees (capped for the low-paid) and employers (with special breaks for small businesses) as well as tax credits from the federal government. Even some Democrats privately deride the scheme as absurdly complicated.",
+                  "The rest of Mrs Clinton’s domestic programme is pretty cautious, even dull. An early ambition is to reform the tax code, modestly, with new revenues going to early-childhood education. There is talk of an infrastructure bank to fund new roads, bridges and smarter electrical grids.",
+                  "Even Washington’s over-caffeinated pundits are not about to write Mrs Clinton’s political obituary, just months into her presidency. But in an age of gridlock there is a price to be paid for making bold promises on the campaign trail. The first 100 days of an American presidency are not what they once were."
                 ]
               }
             },
@@ -81,46 +128,1025 @@
               "attributes": {
                 "metaTags": [
                   {
-                    "property": "og_title",
-                    "content": "The post title"
+                    "property": "og:type",
+                    "content": "article"
                   },
                   {
-                    "property": "og_description",
-                    "content": "Some description of the post"
+                    "property": "og:title",
+                    "content": "The peril beyond Putin"
                   },
                   {
-                    "property": "og_image",
+                    "property": "og:description",
+                    "content": "If Russia breaks up"
+                  },
+                  {
+                    "property": "og:image",
                     "content": "http://worldin:8082/sites/worldin/files/Screen%20Shot%202015-05-21%20at%203.57.50%20PM.png"
+                  },
+                  {
+                    "property": "article:published_time",
+                    "content": "2015-07-24T09:00:00.000Z"
+                  },
+                  {
+                    "property": "article:modified_time",
+                    "content": "2015-07-24T09:00:00.000Z"
+                  },
+                  {
+                    "property": "article:tag",
+                    "content": "politics"
+                  },
+                  {
+                    "property": "article:tag",
+                    "content": "Russia"
+                  },
+                  {
+                    "name": "twitter:card",
+                    "content": "summary_large_image"
+                  },
+                  {
+                    "name": "twitter:title",
+                    "content": "The peril beyond Putin"
+                  },
+                  {
+                    "name": "twitter:description",
+                    "content": "If Russia breaks up"
+                  },
+                  {
+                    "name": "twitter:image:src",
+                    "content": "http://blog.keithcirkel.co.uk/content/images/2015/07/npm.png"
                   }
                 ],
                 "section": "Politics",
                 "mainimage": "http://worldin:8082/sites/worldin/files/Screen%20Shot%202015-05-21%20at%203.57.50%20PM.png",
-                "title": "The new Conservatism",
-                "flytitle": "George Osborne’s political vision is brave, bold—and on many counts wrong",
+                "title": "The peril beyond Putin",
+                "flytitle": "If Russia breaks up",
+                "dateline": "MOSCOW",
+                "rubric": "The world rightly worries about the prospect of a Greater Russia. But a Lesser Russia could be just as troubling",
                 "content": [
-                  "BRITAIN’S chancellor is credited with turning received wisdom on its head. George Osborne steered the Conservative party to a stunning, if narrow, majority in May, because of—not despite—painful cuts and the promise of more. Britain is now growing faster than any of its G7 peers, employment is at record levels, and wages are rising. The opposition Labour Party is in disarray; the Tories in raptures. Unthinkable a couple of years ago, the austerity chancellor is now Britain’s most likely next prime minister.",
-                  "On July 8th Mr Osborne rose to give the budget—his seventh, and the first by a majority Conservative government in 19 years—and outline what he called a “new settlement” for Britain (see article). He announced plans to cut the deficit further, while trimming rates for business, slashing inheritance tax and furthering radical devolution to England’s neglected cities. Boldest of all, he declared an overhaul of the welfare system, replacing benefits with a higher minimum wage. With this, and measures to raise the personal tax allowance and double free child care for parents, he marched his party onto ground once considered too left wing even for Labour.",
-                  "Mr Osborne’s rebranding of the Tories as the party of working people, chasing poor, northern votes that Labour has long taken for granted, is welcome and impressive. So is the alchemy by which he has turned fiscal rectitude into a vote-winner—other European countries should take note. Yet this was a budget whose slick politics hid economics that were often wrong and sometimes dangerous. The flagship substitution of tax credits for wage floors is a bad mistake; cutting benefits to the very poor while reducing inheritance tax for the wealthy is indefensible. And when it came to low productivity and strangled housing supply, the biggest economic questions facing Britain, the bold Mr Osborne had too little to say.",
+                  "UNDER Vladimir Putin’s presidency, Russia is seen in the outside world as an expansionist power trying to revise post-Soviet borders and rebuild an empire. But what if Russia itself—a country of nearly 200 nationalities that stretches across 11 time zones—is in danger of crumbling?",
+                  "It would not be the first time that Russia tried aggression and expansion as a defence against modernisation and by doing so undermined its own territorial integrity. In 1904, when Russia was on the verge of a revolution, Nicholas II attempted to stave off change by looking for national traitors and starting a small war with Japan. The war ended a year later in Russia’s defeat and 12 years later the tsarist Russian empire faded away in a few days. In 1979, as Communist rule struggled under the weight of its own contradictions, the Soviet Union invaded Afghanistan; 12 years later the Soviet Union collapsed just as suddenly.",
+                  "In 2011 Moscow’s urban middle class took to the streets to demand modernisation. Mr Putin responded by picking out national traitors, annexing Crimea and starting a war against Ukraine. The idea that Russia’s latest foreign-policy adventures might end in the same way as previous ones—with the collapse of the state and disintegration of the country—is not as far-fetched as it might seem.",
+                  "The Soviet Union collapsed because it overstretched itself and ran out of money and ideas. Local elites saw no benefit in remaining part of a bankrupt country. It disintegrated along the administrative borders of the 15 republics that made up the vast country.",
+                  "Yet there was no reason why the process had to stop there. Indeed, many of Russia’s regions—including Siberia, Ural, Karelia and Tatarstan—declared their \"sovereignty\" at the time. To prevent further disintegration Russia’s then president, Boris Yeltsin, came up with the idea of a federation, promising each region as much \"sovereignty as it could swallow\". Yeltsin made this promise in Kazan, the ancient capital of Tatarstan, which acquired many attributes of a separate state: a president, a constitution, a flag and, most important, its own budget. In exchange, Tatarstan promised to stay part of Russia.",
+                  "Mr Putin has reversed federalism, and turned Russia into a centralised state. He cancelled regional elections, imposed a “presidential” representative over the heads of governors and redistributed tax revenues in Moscow’s favour. But he did not build common institutions. The Russian state is seen not as an upholder of law but as a source of injustice and corruption.",
+                  "In the words of Mikhail Iampolski, a historian, Russia at present resembles a khanate in which local princes receive a licence to rule from the chief khan in the Kremlin. For the past decade the main job of the Moscow-appointed governors has been to provide votes for Mr Putin. In exchange they received a share of oil revenues and the right to rule as they see fit. Chechnya under Ramzan Kadyrov, a former warlord installed by Mr Putin, is a grotesque illustration of this. In the most recent presidential election, Chechnya provided 99.7% of its votes for Mr Putin with a turnout of 99.6%. In return, Mr Kadyrov receives subsidies and freedom to subject his people to his own “informal” taxes and Islamic rules. Moscow pays a dictatorial and corrupt Chechnya a vast due in return for Mr Kadyrov pretending to be part of Russia and pledging loyalty to Mr Putin.",
+                  "If Mr Putin goes and the money runs out, Chechnya will be the first to break off. This would have a dramatic effect on the rest of the north Caucasus region. Neighbouring Dagestan, a far bigger and more complex republic than Chechnya, could fragment. A conflict in the Caucasus combined with the weakness of the central government in Russia could make other regions want to detach themselves from Moscow’s problems.",
+                  "Tatarstan, home to 2m Muslim ethnic Tatars and 1.5m ethnic Russians, could declare itself the separate khanate it was in the 15th century. It has a strong identity, a diverse economy, which includes its own oil firm, and a well-educated ruling class. It would form a special relationship with Crimea, which Crimean Tartars (at last able to claim their historic land) would declare an independent state.",
+                  "The Ural region could form a republic—as it tried to do in 1993—around Yekaterinburg, Russia’s fourth-largest city, or else it could form a union with Siberia. Siberia itself could revive its own identity, from a base in the cities of Krasnoyarsk and Irkutsk, and lay claim to its oil-and-gas riches, which it would sell to China. Unlike Russia, China might not have much interest in territorial expansion into the sparsely populated Far East and Siberia, but it could (and already does) colonise these regions economically. Vladivostok and Khabarovsk, two of the largest cities in the Far East, are more economically integrated with China and South Korea than they are with the European part of Russia.",
                   {
                     "component": "ArticleSubHead",
                     "props": {},
-                    "content": ["George’s marvellous medicine"]
+                    "content": ["Things fall apart—with nukes inside"]
                   },
-                  "The budget began with a sensible admission of austerity’s limits. Mr Osborne originally planned to bring the public finances screeching back into the black by 2018-19. He rightly changed his mind. Britain’s deficit will be 3.7% of GDP this year—sizeable, but not crushing. The country has plenty of fiscal wiggle room, as the IMF’s economists have pointed out. Growth should do much to reduce borrowing. Mr Osborne’s decision to extend his deadline by a year, to 2019-20, was correct.",
-                  "So was the decision to add defence to the departments protected from cuts. Britain will now meet NATO’s target of spending 2% of GDP on defence each year, to sighs of relief in a Washington worried about European firepower. Letting university tuition fees rise in line with inflation will help English universities to stay at the top of international league tables (in contrast to Scotland, whose once-proud colleges are buckling under a policy of free higher education). And cutting corporation tax, from 20% to 18% by 2020, will bring business to Britain.",
-                  "Then things took a turn for the barmy. In perhaps the daftest economic policy of the decade, inheritance tax was cut—but only on houses. A new allowance for homes means that estates worth up to £1m ($1.5m) will escape taxation. Even if dead millionaires were good candidates for tax breaks—doubtful, especially given fiscal pressures—there is no good economic reason to privilege houses over other assets. Indeed, the policy will encourage the well-off to buy bigger homes. In a country facing a severe housing shortage, that is irresponsible.",
-                  "Going easy on heirs and heiresses also damages Mr Osborne’s claim to stand for working people. To this, he had a bold answer: the shake-up of welfare. He has long promised to cut £12 billion from the welfare budget, having already pared it back by £25 billion since 2010. As expected, many of the cuts were achieved by reducing tax credits, wage top-ups for low earners. In their place will come a “national living wage” of £7.20 per hour, due to rise to £9 by 2020.",
-                  "This is radical—especially from a Tory government—but it is mistaken. Minimum wages do little harm when low, but create unemployment as they rise—indeed, Mr Osborne admitted that the higher wage floor would cost 60,000 jobs. Tax credits, by contrast, are an incentive to hiring. Some complain that they subsidise employers, but around three-quarters of the benefit goes to employees. Despite its fanfare, the new “living wage” is fairly modest. But swapping tax credits for minimum wages as a policy for alleviating poverty could do enormous damage in a world where firms are increasingly buying technology rather than paying workers. Ask France, with a generous minimum wage—and joblessness of more than 10%.",
-                  {
-                    "component": "ArticleSubHead",
-                    "props": {},
-                    "content": ["The twits"]
-                  },
-                  "Mr Osborne makes much of “fairness”, but his cuts to welfare are skewed by outrageous favouritism. Despite austerity, the basic state pension has grown by 16% since 2010. Such rises benefit rich rather than poor oldies, since other benefits raise the incomes of the less well-off above the state pension. If he were serious about shrinking the state, Mr Osborne would have cut the pensions of the better-off; but the elderly vote.",
-                  "Instead he curtailed worthier spending. Productivity, which has been flat since the crisis of 2008, needs investment. Mr Osborne announced a fund for roads, to be paid for by car tax. But a fortnight earlier a planned rail upgrade to link northern cities was put on hold for lack of funds. The same fate may await other plans to boost productivity.",
-                  "Nor were there answers to the housing shortage. Mr Osborne said that a tax break for buy-to-let landlords would be cut, which may ease pressure on prices. And, in a diktat that could have come from Ed Miliband, Labour’s former leader, he ordered social housing providers to cut their rents by 1% a year. These steps do not come close to solving the housing crisis, which will need a shake-up of planning laws.",
-                  "It was a beguiling budget: policies of the left given a Conservative justification, and cuts recast as a reshaping of the state. In the past five years Mr Osborne has played a dreadful hand well. But this was a budget built on economic mistakes. The chancellor’s revamped Conservatism is characteristically daring. Economically, it is disappointingly thin."
+                  "Despite Russia’s deep paranoia that America is trying to break it up, such a scenario is one of the West’s worst nightmares. It opens the question of control over Russia’s nuclear arms. Although the command centre would remain in Moscow, securing missiles spread across Russian territory could be harder than it was after the collapse of the Soviet Union. At the time, the Russians and Americans worked successfully together to move the nuclear arsenal from Ukraine and Kazakhstan to Russia. Ukraine was given a piece of paper—called the Budapest memorandum and signed by Russia, America and Britain—which guaranteed its territorial integrity in exchange for giving up its nuclear arms. Now, Russia’s annexation of Crimea has made any such assurance worthless.",
+                  "The spectre of disintegration is already haunting Russia. Politicians and pundits are scared to discuss it publicly. Shortly after annexing Crimea and stirring separatism in eastern Ukraine, the Kremlin introduced a law which makes \"incitement of any action undermining Russia’s own territorial integrity\" a criminal offence. Yet the greatest threat to Russia’s territorial integrity is posed by the Kremlin itself and its policies in Ukraine.",
+                  "By breaking the post-Soviet borders, Mr Putin opened a Pandora’s box. If Crimea \"historically\" belongs to Russia as he has claimed, what about Kaliningrad, the former Königsberg, an exclave which Germany lost to Russia after the second world war? Should not eastern Karelia, which Finland ceded to the Soviet Union after the winter war in 1940, be Finnish and the Kuril Islands return to Japan?",
+                  "Even more perilously for Russia’s future, Mr Putin brought into motion forces that thrive on war and nationalism. These are not the forces of imperial expansion—Russia lacks the dynamism, resources and vision that empire-building requires. They are forces of chaos and disorganisation. Eastern Ukraine has turned into a nest of criminals and racketeers. They cannot spread Russian civilisation, but they can spread anarchy.",
+                  "In short, Russia under Mr Putin is much more fragile than it looks. Vyacheslav Volodin, his deputy chief of staff, recently equated Mr Putin with Russia: \"No Putin, no Russia,\" he said. It is hard to think of a worse indictment."
                 ]
+              }
+            },
+            {
+              "type": "posts",
+              "id": "3",
+              "attributes": {
+                "metaTags": [
+                  {
+                    "property": "og:type",
+                    "content": "article"
+                  },
+                  {
+                    "property": "og:title",
+                    "content": "Article of faith"
+                  },
+                  {
+                    "property": "og:description",
+                    "content": "If a NATO member comes under attack"
+                  },
+                  {
+                    "property": "og:image",
+                    "content": "http://worldin:8082/sites/worldin/files/Screen%20Shot%202015-05-21%20at%203.57.50%20PM.png"
+                  },
+                  {
+                    "property": "article:published_time",
+                    "content": "2015-07-24T09:00:00.000Z"
+                  },
+                  {
+                    "property": "article:modified_time",
+                    "content": "2015-07-24T09:00:00.000Z"
+                  },
+                  {
+                    "property": "article:tag",
+                    "content": "politics"
+                  },
+                  {
+                    "property": "article:tag",
+                    "content": "Russia"
+                  },
+                  {
+                    "name": "twitter:card",
+                    "content": "summary_large_image"
+                  },
+                  {
+                    "name": "twitter:title",
+                    "content": "Article of faith"
+                  },
+                  {
+                    "name": "twitter:description",
+                    "content": "If a NATO member comes under attack"
+                  },
+                  {
+                    "name": "twitter:image:src",
+                    "content": "http://blog.keithcirkel.co.uk/content/images/2015/07/npm.png"
+                  }
+                ],
+                "section": "Politics",
+                "mainimage": "http://worldin:8082/sites/worldin/files/Screen%20Shot%202015-05-21%20at%203.57.50%20PM.png",
+                "title": "Article of faith",
+                "flytitle": "If a NATO member comes under attack",
+                "rubric": "How the West would recognise, and respond to, a Russian offensive",
+                "content": [
+                  "RUSSIA’S aggression in Ukraine has given NATO both a new sense of purpose and a new kind of threat: “hybrid” warfare. The alliance’s military analysts have been working on “detailed, granular” but secret plans for a range of crisis scenarios.",
+                  "The overarching assumption is that Russia’s president, Vladimir Putin, flushed by the success of annexing Crimea and prising away Ukraine’s Donbas region, moves on to something even more ambitious. His goal: to undermine NATO and the European Union, by concentrating his well-honed techniques of hybrid warfare on two Baltic states that share a land border with Russia—Latvia and Estonia.",
+                  "Hybrid warfare brings together military and non-military instruments to discombobulate the target state. Unlike Ukraine, the Baltic states are members of both the EU and NATO and are covered by the military alliance’s commitment to collective security under Article 5 of the 1949 Washington treaty that deems an attack on one as an attack on all. But this was conceived in an era when there was no doubt whether a country was under military attack or not. The big question is whether it is fit for purpose in dealing with 21st-century Russian tactics, which use ambiguity and deniability to make it hard to gauge whether an attack is really under way. Only once in NATO’s 66-year history has Article 5 been invoked—after the attacks of September 11th 2001—and at the time it was controversial whether this was a proper use of the alliance’s biggest stick.",
+                  "This is how Mr Putin might test it. Working to its established game plan, Russia starts by stirring up the resentments of Russian-speakers (47% of Estonia’s population and 37% of Latvia’s), bombarding them with propaganda about the discrimination they are supposedly subjected to. Using agents provocateurs to foment pro-Russian demonstrations in the capitals, Riga and Tallinn, Russia does all it can to undermine the authorities in both countries. Ethnic Russians from Estonia and Latvia who were encouraged to fight with their “brothers” in eastern Ukraine stand ready to carry on the fight back home.",
+                  "As the situation deteriorates, Mr Putin orders snap exercises of elite troops on the Russian side of the border, giving him the option of military intervention with little notice. Drills of this kind were a critical element in the destabilisation of Ukraine. Cyber-attacks are stepped up, adding to confusion, and NATO faces a huge increase in incursions into allied airspace in the region by Russian aircraft. Next, “self-?defence forces” start forming in areas with many ethnic Russians, organised by soldiers wearing the same green uniforms shorn of insignia as the “little green men” who suddenly turned up in Crimea.",
+                  "Estonia and Latvia ask NATO to declare that an Article 5-invoking event is under way and thus to commit all the alliance’s members to come to their defence. But, unsure that a full-scale response is justified at this stage, and with Mr Putin warning that any escalation by NATO could force Russia to consider using nuclear weapons to defend itself, the alliance’s “parliament”, the North Atlantic Council, cannot reach the required consensus of all 28 countries. The insistence of Germany that all political means of defusing the crisis must be brought to bear before going down a path that could lead to a major war in Europe finds many supporters. Thus, the bedrock assumption on which NATO’s credibility and thus the security of Europe rests has been tested and found wanting.",
+                    {
+                    "component": "ArticleSubHead",
+                    "props": {},
+                    "content": ["Not so fast, Vladimir"]
+                    },
+                  "How likely is such a scenario? Perhaps Mr Putin regards the risk of taking on NATO as too great. Even his Ukraine escapade has stretched Russia’s military resources.",
+                  "But the allies cannot afford to rely on that. They have drawn up plans to hold the NATO Response Force, which has at its disposal 13,000 well-equipped troops, at a much higher state of readiness. A “spearhead” force of about 5,000 troops will be deployable at the first sign of trouble, possibly within hours, on the order of the alliance’s supreme commander, General Philip Breed?love, without the usual requirement for consensual political approval. NATO’s new secretary-general, Jens Stoltenberg, says it is also helping its front-line states improve their intelligence-gathering and situational awareness. Knowing what an aggressor is planning and understanding early on what is happening on the ground are vital.",
+                  ""
+                ]
+              }
+            },
+            {
+              "type": "posts",
+              "id": "4",
+              "attributes": {
+                "metaTags": [
+                  {
+                    "property": "og:type",
+                    "content": "article"
+                  },
+                  {
+                    "property": "og:title",
+                    "content": "Clash of the currencies"
+                  },
+                  {
+                    "property": "og:description",
+                    "content": "If the yuan competes with the dollar"
+                  },
+                  {
+                    "property": "og:image",
+                    "content": "http://worldin:8082/sites/worldin/files/Screen%20Shot%202015-05-21%20at%203.57.50%20PM.png"
+                  },
+                  {
+                    "property": "article:published_time",
+                    "content": "2015-07-24T09:00:00.000Z"
+                  },
+                  {
+                    "property": "article:modified_time",
+                    "content": "2015-07-24T09:00:00.000Z"
+                  },
+                  {
+                    "property": "article:tag",
+                    "content": "Business"
+                  },
+                  {
+                    "property": "article:tag",
+                    "content": "economics"
+                  },
+                  {
+                    "name": "twitter:card",
+                    "content": "summary_large_image"
+                  },
+                  {
+                    "name": "twitter:title",
+                    "content": "Clash of the currencies"
+                  },
+                  {
+                    "name": "twitter:description",
+                    "content": "If the yuan competes with the dollar"
+                  },
+                  {
+                    "name": "twitter:image:src",
+                    "content": "http://blog.keithcirkel.co.uk/content/images/2015/07/npm.png"
+                  }
+                ],
+                "section": "Business & economics",
+                "mainimage": "http://worldin:8082/sites/worldin/files/Screen%20Shot%202015-05-21%20at%203.57.50%20PM.png",
+                "title": "Clash of the currencies",
+                "flytitle": "If the yuan competes with the dollar",
+                "dateline": "SHANGHAI",
+                "rubric": "The yuan’s rise will challenge America, but not before China changes",
+                "content": [
+                  "WHEN will the yuan rival the dollar? Many in China think it only a matter of time. Chen Yulu, a leading economist, says it will take 15 years. Wei Jianguo, deputy head of a major think-tank, puts it at 20. Officials are more circumspect: currency internationalisation will be a long process, its pace determined by the market, says Zhou Xiaochuan, the central-bank governor. Outside China, opinions are more divided. Some think the yuan is already on the verge of displacing the dollar in Asia; others predict it will never get there.",
+                  {
+                    "component": "PullQuote",
+                    "props": {},
+                    "content": ["A global monetary system with multiple poles could in theory engender greater economic stability"]
+                  },
+                  "What difference would it make if China’s currency did vie with the dollar for global pre-eminence? Scholars have looked for clues in the transition from the pound to the dollar, but that took place around the middle of last century in a very different context. The dollar and the pound were both convertible into gold at fixed rates, making the leap of faith for those switching from one to the other much less of a risk. Today, reserve currencies are not backed by gold. Their value is more slippery—a function of supply and demand.",
+                  "What is more, the shift from the pound to the dollar reflected a passage of economic power, one that had started many decades earlier, between two allies with shared democratic values and economic ideas. China’s leaders talk of the yuan’s internationalisation in peaceful terms. A more diverse monetary system will breed financial stability for the world, they say. But China’s rise poses a bigger threat to America than America’s did to Britain. For all the paeans to mutually beneficial development, China is a possible adversary, governed by an autocratic regime with a statist approach to the economy.",
+                  "Some in China thus take a darker view of how competition between the yuan and the dollar will play out. Song Hong?bing, author of “Currency Wars”, a conspiracy-laced series of books, foresees America fighting the yuan every step of the way. That has been shown to be wrong, so far. Over the past five years China has built a network for yuan-trading around the world, and America has not tried to thwart it. But a glimpse of the potential for conflict came last year when America tried, unsuccessfully, to persuade its allies to stay out of the Asian Infrastructure Investment Bank, launched by China. America is pushing for a Pacific trade deal that excludes China. And it is striking that among the many yuan-trading hubs established by China, from London to Singapore, the one glaring hole in the network is New York.",
+                  "America has good reason to worry about the yuan. Its emergence as a credible alternative to the dollar would undermine a cornerstone of American power. Sanctions against Iran and North Korea have had bite because of the dollar’s centrality to global finance. Some 45% of all cross-border transactions are denominated in dollars. So any bank with international business needs access to the American banking system, to clear payments or manage cash. And for that it needs an American licence, which means it had better heed the sanctions. China knows how potent this is. In 2013, after America hit North Korea’s main foreign-exchange bank with sanctions, Bank of China stopped serving its North Korean client. In 2012, at the height of American pressure on Iran, China grudgingly cut imports of Iranian oil.",
+                  "The dollar’s political leverage will dissipate as the yuan goes global. China is already close to launching a system for processing cross-border yuan payments. Although described blandly as a platform for facilitating transactions, its consequences could over time be far-reaching. It will allow banks and companies to move money around the world on a financial superhighway delinked from the dollar.",
+                  "America will find it far harder to track who is using the China International Payment System (CIPS) and for what. The threat of exclusion from the American financial system will start to lose its force. And China would have a new tool to propagate its way of thinking. When heads of state meet the Dalai Lama, the Tibetan spiritual leader regarded by China as a separatist, they may find their banks placed on the CIPS blacklist. This tactic would damage the yuan’s standing if used too liberally, but the mere threat of punishment might be enough for China to get its way.",
+                  "A global yuan would also win China more respect. China has shown that it wants to be seen as a good citizen of the world at times of trouble. In 1997-98, during the Asian financial crisis, and in 2008-09, during the global one, it locked the yuan in place against the dollar. This reassured other countries that it would not use depreciation as a crutch for its economy. As international use of the yuan increases, China will be in a position to do more, by serving as backstop to the global financial system.",
+                  {
+                    "component": "ArticleSubHead",
+                    "props": {},
+                    "content": ["Yuan-upmanship"]
+                  },      "",
+                  "When Lehman Brothers collapsed in 2008, the Federal Reserve provided emergency swap lines to banks around the world. If a crisis hits in two decades’ time, China could play a similar role. It is assembling the framework to lend such support by establishing currency swaps with many nations, from Argentina to Russia.",
+                  "The economic consequences of the yuan’s rise would be momentous. The “exorbitant privilege” that goes with being the issuer of the dominant currency would ebb for America. Because there is so much demand for dollar assets—more than 60% of all global central-bank reserves are held in dollars—America and companies based there can sell bonds for higher prices than they could otherwise. Since bond yields move inversely to prices, this means it costs less for Americans to borrow—so it is easier for the government to fund its deficits and for firms to raise money.",
+                  "How much is this exorbitant privilege worth? Researchers found that yields on American ten-year treasury bonds were as much as a percentage point lower in the early 2000s thanks to the dollar’s status. America is also able to issue all its debt in dollars. The currency mismatch that often triggers debt crises in smaller economies is thus off the cards; the Federal Reserve can simply print more dollars to pay off the government’s liabilities. The benefits add up to $100 billion a year for America, estimates the McKinsey Global Institute.",
+                  "But there are also downsides. Demand for the dollar as a reserve asset means the currency is stronger than it would otherwise be, making it harder for American exporters to compete. McKinsey found this lops as much as $60 billion off GDP. Net, America still gains 0.3-0.5% of GDP a year thanks to the dollar’s status.",
+                  "When the yuan rivals the dollar, China will eat into this pie. Investors from other countries might sell off dollar assets since they would have alternatives in the yuan; this would drive up American interest rates and weaken the economy. Researchers have shown that the Fed can mitigate but not fully counteract this effect by buying the bonds sold by foreigners. The upshot is that America would have to work harder to retain the confidence of global investors, perhaps leading it to rein in government debt.",
+                  "But the changes required of China would be even more dramatic. In his account of how the dollar remained the world’s pre-eminent currency despite being at the centre of the global financial crisis, Eswar Prasad, an economist at Cornell University, explains that its strength resides in America’s institutions. Deep financial markets, a robust legal system and a generally transparent political process underpin the dollar. Faith in these make America and its currency a haven.",
+                  "China would have to build a similar complement of institutions to persuade investors that the yuan is as reliable. It would need to make its currency truly convertible, stop intervening in its exchange rate and build a big, liquid, transparent bond market. Heavy-handed intervention to prop up stocks when they recently crashed shows how far China is from developing a mature financial system. China would also, like America, need proper rule of law. This would require allowing courts to go against the wishes of the Communist Party, something unthinkable for now. And through all this, China needs to keep its economy marching forward. Stagnation would undermine the yuan’s appeal.",
+                  "If China somehow accomplishes all that, a global monetary system with multiple poles could in theory engender greater economic stability. America and China might compete to make their respective currencies more attractive by demonstrating sound fiscal and monetary policies. The exorbitant privilege would become an extraordinary responsibility. But there would also be new risks—“more room for friction and accidents”, says Alan Wheatley, editor of a recent book about reserve currencies. With the dollar’s status in doubt, there might be damaging uncertainty about where to turn for a safe harbour when the next financial tsunami strikes.",
+                  "How likely is any of this to happen? The dollar has a huge incumbent’s advantage. Political gridlock in Washington risks chipping away at that, as might excessive use of the sanctions that reserve-currency status allows America. Much will depend on Chinese policy. The key is to make China’s financial system as deep, open and trusted as America’s. That is a long-term project, but China can speed things up a little with specific policy changes—for instance, lowering barriers to foreign investment in its bond market.",
+                  "China’s record over the past five years, when it began to promote yuan internationalisation, is impressive. The share of Chinese cross-border trade settled in yuan rose from nothing in 2009 to 22% last year. It is now the fifth-most-used currency for international payments. The IMF is debating whether to adjust its special drawing right, a basket of reserve currencies, to include the yuan. Still, this is a far cry from its rivalling the dollar. Some 50 central banks have invested reserves in yuan, but only in small amounts. Foreigners hold $200 billion in Chinese stocks and bonds; they have 80 times more—$16 trillion—in American securities. For now, the yuan is a bit player on the global stage. But at the start of the 20th century, so was the dollar."
+                ]
+              }
+            },
+            {
+              "type": "posts",
+              "id": "5",
+              "attributes": {
+                "metaTags": [
+                  {
+                    "property": "og:type",
+                    "content": "article"
+                  },
+                  {
+                    "property": "og:title",
+                    "content": "Squeezing the rich"
+                  },
+                  {
+                    "property": "og:description",
+                    "content": "If the world introduces a “Piketty tax”"
+                  },
+                  {
+                    "property": "og:image",
+                    "content": "http://worldin:8082/sites/worldin/files/Screen%20Shot%202015-05-21%20at%203.57.50%20PM.png"
+                  },
+                  {
+                    "property": "article:published_time",
+                    "content": "2015-07-24T09:00:00.000Z"
+                  },
+                  {
+                    "property": "article:modified_time",
+                    "content": "2015-07-24T09:00:00.000Z"
+                  },
+                  {
+                    "property": "article:tag",
+                    "content": "Business"
+                  },
+                  {
+                    "property": "article:tag",
+                    "content": "economics"
+                  },
+                  {
+                    "name": "twitter:card",
+                    "content": "summary_large_image"
+                  },
+                  {
+                    "name": "twitter:title",
+                    "content": "Squeezing the rich"
+                  },
+                  {
+                    "name": "twitter:description",
+                    "content": "If the world introduces a “Piketty tax”"
+                  },
+                  {
+                    "name": "twitter:image:src",
+                    "content": "http://blog.keithcirkel.co.uk/content/images/2015/07/npm.png"
+                  }
+                ],
+                "section": "Business & economics",
+                "mainimage": "http://worldin:8082/sites/worldin/files/Screen%20Shot%202015-05-21%20at%203.57.50%20PM.png",
+                "title": "Squeezing the rich",
+                "flytitle": "If the world introduces a “Piketty tax”",
+                "dateline": "",
+                "rubric": "Thomas Piketty, a superstar economist, favours the introduction of a global wealth tax. Its impact might be surprisingly small",
+                "content": [
+                  "IN A speech in 2013 Barack Obama labelled inequality “the defining challenge of our time”. A few months later a book on the subject by Thomas Piketty, an economist at the Paris School of Economics, became an unlikely bestseller. It walked readers through centuries of data and a theory of inequality before leaving them with a bold policy recommendation: to prevent a dangerous rise in the concentration of wealth, the world’s governments ought to co-operate to enact a global wealth tax.",
+                  "Egalitarian themes remain popular on campaign trails, but the wealth-tax idea has so far failed to gain ground. Yet in the right circumstances, might a “Piketty tax” emerge from the messy world of democratic politics? Two preconditions are in place. First, inequality within countries is soaring, as it was when progressive taxation first became widespread, in the early 20th century. Around the world top earners are gobbling up a larger share of income than they have for decades (see chart 1, left-hand side). Wealth has also rebounded. New research suggests that the share of wealth held by the top 0.1% of American households has leapt from about 7% in 1979 to as much as 22% in 2012.",
+                  "Second, governments have piles of debt to pay down. Tax rates rose sharply as governments struggled to finance the second world war, then gradually fell in post-war decades (chart 1, right-hand side). In recent years, most of the continental economies that had in place an annual wealth tax repealed it. But government borrowing zoomed up again thanks to the financial crisis. Across the rich world debt as a share of GDP is 50% higher than it was before the financial crisis, on average (chart 2). When push comes to shove, those with the most will be asked to pay more.",
+                  "How much more? Though Mr Piketty reckons taxes on the incomes of the rich should be 75% or more, his proposals for a wealth tax are generally modest. In his book he suggests that those with fortunes worth less than €1m ($1.1m) might pay nothing, while a tax of 1% would apply to fortunes between €1m and €5m, and 2% to those greater than €5m. Some speculate that a wealth tax of this sort could emerge as part of a deal to simplify America’s tax rules and reduce income-tax rates. In a column in the Wall Street Journal in 2012, Ronald McKinnon, a late, eminent economist, argued that American conservatives should support a wealth tax in exchange for cuts in other tax rates. He reckoned that high income taxes create poor incentives for productive workers, but could be slashed only if Democrats were offered a highly progressive wealth tax in return.",
+                  {
+                    "component": "ArticleSubHead",
+                    "props": {},
+                    "content": ["Following America’s lead"]
+                  },      "",
+                  "Impossible? Suppose America’s Congress were controlled by business-friendly Republicans keen to streamline the tax system and cut rates. And the White House were occupied by a Democrat open to tax reform but prepared to veto any bill without a strong progressive component. Congressional haggling could produce a wealth tax as the linchpin of a deal.",
+                  "It would bring no great windfall. Data on personal wealth are patchier than income statistics—one of the reasons, Mr Piketty complains, why governments find it hard to tax wealth. But figures from America suggest that between 6m and 7m households, or about 5%, have a net worth (meaning the value of assets less debt) of more than €1m, and about half as many have a net worth of €2m or more. At present, in other words, a wealth tax like the one described by Mr Piketty might bring in a few hundred billion dollars a year, or a bit less than the federal government receives each year in corporate income-tax receipts. The numbers could be lower if households responded to the tax by reallocating their wealth from easily valued assets like equities to woollier ones, like rare antiquities, or if they found ways to exaggerate the apparent value of household debts, which reduce the value of taxable net wealth.",
+                  "However, an American tax would put the power of its authorities, with their extra territorial reach, on the case. The Internal Revenue Service would demand that foreign governments keep better data on American wealth held abroad, and might threaten legal action against banks that refused to co-operate. As information accumulated about where and how much wealth was held across the globe, the temptation among foreign governments to tax those hoards would grow.",
+                  "In economic theory, taxes on wealth are bad for growth, since they discourage saving and investment. But evidence from wealth taxes in Europe suggests the effect on growth and entrepreneurship is tiny. Asa Hansson of Lund University in Sweden calculates that a 1-percentage-point increase in wealth tax reduces growth by between 0.02 and 0.04 percentage points. If a wealth tax were a part of a bargain that trimmed personal and corporate tax rates, it is possible that neither growth nor wealth would be harmed much.",
+                  "But nor would it qualify, strictly speaking, as a Piketty tax. To curtail growth in inequality, Mr Piketty reckons, a wealth tax must be paired with higher taxes on personal and corporate income, not adopted in exchange for lower rates. So for the full complement of egalitarian policies to be enacted, a third precondition must be met: a shift in political power. The wealth-compressing policies of the early 20th century were rooted in dramatic changes in the political landscape: the expansion of the franchise to those without property, and the explosive growth of the state in response to war and depression. They also included more than just tax; regulations shored up labour rights, while public investment and nationalisations nurtured public wealth at the expense of private fortunes.",
+                  "That is the irony of Mr Piketty’s call to arms. A wealth tax that emerges in the absence of tectonic political change will not alter economic growth or the overall tax burden on the wealthy by very much.",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              }
+            },
+            {
+              "type": "posts",
+              "id": "6",
+              "attributes": {
+                "metaTags": [
+                  {
+                    "property": "og:type",
+                    "content": "article"
+                  },
+                  {
+                    "property": "og:title",
+                    "content": "Trench warfare in Nicaragua"
+                  },
+                  {
+                    "property": "og:description",
+                    "content": "If the Panama Canal gets a rival"
+                  },
+                  {
+                    "property": "og:image",
+                    "content": "http://worldin:8082/sites/worldin/files/Screen%20Shot%202015-05-21%20at%203.57.50%20PM.png"
+                  },
+                  {
+                    "property": "article:published_time",
+                    "content": "2015-07-24T09:00:00.000Z"
+                  },
+                  {
+                    "property": "article:modified_time",
+                    "content": "2015-07-24T09:00:00.000Z"
+                  },
+                  {
+                    "property": "article:tag",
+                    "content": "Business"
+                  },
+                  {
+                    "property": "article:tag",
+                    "content": "economics"
+                  },
+                  {
+                    "name": "twitter:card",
+                    "content": "summary_large_image"
+                  },
+                  {
+                    "name": "twitter:title",
+                    "content": "Trench warfare in Nicaragua"
+                  },
+                  {
+                    "name": "twitter:description",
+                    "content": "If the Panama Canal gets a rival"
+                  },
+                  {
+                    "name": "twitter:image:src",
+                    "content": "http://blog.keithcirkel.co.uk/content/images/2015/07/npm.png"
+                  }
+                ],
+                "section": "Business & economics",
+                "mainimage": "http://worldin:8082/sites/worldin/files/Screen%20Shot%202015-05-21%20at%203.57.50%20PM.png",
+                "title": "Trench warfare in Nicaragua",
+                "flytitle": "If the Panama Canal gets a rival",
+                "dateline": "BRITO",
+                "rubric": "Why a Chinese firm might dig a giant waterway through America’s backyard",
+                "content": [
+                  "NEAR the mouth of the Brito river there are no paved roads, no earthmovers and no signs of construction yet. There is a beach, a mangrove swamp teeming with crabs, and a shirtless drifter called Peyró, whose hobby is riding bulls. There are no ships. The only crafts along this remote stretch of the Pacific are surfboards. Could this really be the place where within a decade the world’s largest vessels will enter Nicaragua and pass through forest, lake, mountain and jungle between the Pacific and the Atlantic oceans? Peyró looks mystified. “Only God knows,” he says.",
+                  "And China, perhaps. Two years ago Nicaragua put its sovereignty in hock by giving a concession of up to 100 years for a canal that could cost $40 billion-50 billion to Wang Jing, a Chinese telecoms magnate. His company, HKND, says it will soon be ready to start digging an entrance channel near this spot. The next step will be a port a few miles inland big enough to process 500-metre-long ships with five times the container-carrying capacity of those that currently traverse the Panama Canal.",
+                  "Respectable firms such as McKinsey, a business consultant, and ERM, an environmental one, have put their reputations on the line assessing the feasibility of the 260km (162-mile) canal. It is surely one of the world’s most improbable infrastructure projects. However, Bill Wild, the chief project adviser, appears raring to go. “It’s massive. I can’t stress enough how big it is. But it’s technically relatively straightforward,” he says.",
+                  "The construction alone would be a spectacle. Some 50,000 labourers (perhaps a quarter of them Chinese) might work on site, and 2,000 diggers, dredgers and other giant machines would excavate about 5 billion cubic metres (177 billion cubic feet) of dirt, using 5 billion litres of fuel in the process. They will lay what they dig up 1.5km either side of the canal, which HKND promises to turn into new arable land about three times the size of Manhattan, partly for the 30,000 people uprooted from their homes.",
+                  "Construction will no doubt damage the environment. A 107km-long, 280-metre-wide trench will be dredged through pristine Lake Nicaragua, rainforests will be uprooted, big-cat migration routes traversed and indigenous families ousted from sacred lands. Mr Wild pledges that, when finished, the reforested land along the canal route will be better cared for than it is now. But can any pharaonic enterprise, let alone a Chinese one, be trusted not to cut corners? Environmentalists will try to block it every step of the way.",
+                  {
+                    "component": "ArticleSubHead",
+                    "props": {},
+                    "content": ["Size matters"]
+                  },
+                  "If completed, the canal would symbolise a shift in global shipping. The two-lock waterway could take vessels with a proposed freight capacity of 25,000 20-foot containers, or 20-foot equivalent units (TEUs); currently the biggest ships have a capacity of around 19,000 TEUs and make up a tiny fraction of the world fleet. Even the expanded Panama Canal, due to open in 2016, is limited to taking cargoes of 13,000 TEUs, so ships that otherwise would have rounded Cape Horn or gone via Suez would be able to move more easily between east and west. But container trade is slowing, as consumer-goods production moves closer to home. HKND is betting that ship sizes will increase to bring down costs per container.",
+                  "Some believe that if the Chinese government is a backer of the project, the transit of military as well as commercial vessels may be a hidden part of the agenda. “Just as the United States wants to expand in the Pacific, it’s not unreasonable that China will want to do so in the Atlantic. Any educated person can see the strategic possibilities,” acknowledges Manuel Coronel, the head of the Nicaragua Grand Canal Authority.",
+                  "So far, America has been phlegmatic about the enterprise. Perhaps, like Jorge Quijano, administrator of the Panama Canal, it believes that financially the project is a bottomless pit and has no future. Mr Quijano reckons that for the Nicaraguan canal to earn a competitive return on investment, it would have to charge double the tolls levied in Panama, which would put off most customers.",
+                  "Nicaragua’s Sandinista rulers shrug off the worry. “If China is behind the project, it will not be a big problem for Wang Jing to get the financing,” Mr Coronel says. After all, what wouldn’t China pay to see one of its naval fleets one day emerging from the Central American jungle right under America’s nose?"
+                ]
+              }
+            },
+            {
+              "type": "posts",
+              "id": "7",
+              "attributes": {
+                "metaTags": [
+                  {
+                    "property": "og:type",
+                    "content": "article"
+                  },
+                  {
+                    "property": "og:title",
+                    "content": "Debate"
+                  },
+                  {
+                    "property": "og:description",
+                    "content": "The case for slower growth"
+                  },
+                  {
+                    "property": "og:image",
+                    "content": "http://worldin:8082/sites/worldin/files/Screen%20Shot%202015-05-21%20at%203.57.50%20PM.png"
+                  },
+                  {
+                    "property": "article:published_time",
+                    "content": "2015-07-24T09:00:00.000Z"
+                  },
+                  {
+                    "property": "article:modified_time",
+                    "content": "2015-07-24T09:00:00.000Z"
+                  },
+                  {
+                    "property": "article:tag",
+                    "content": "Business"
+                  },
+                  {
+                    "property": "article:tag",
+                    "content": "economics"
+                  },
+                  {
+                    "name": "twitter:card",
+                    "content": "summary_large_image"
+                  },
+                  {
+                    "name": "twitter:title",
+                    "content": "Debate"
+                  },
+                  {
+                    "name": "twitter:description",
+                    "content": "The case for slower growth"
+                  },
+                  {
+                    "name": "twitter:image:src",
+                    "content": "http://blog.keithcirkel.co.uk/content/images/2015/07/npm.png"
+                  }
+                ],
+                "section": "Business & economics",
+                "mainimage": "http://worldin:8082/sites/worldin/files/Screen%20Shot%202015-05-21%20at%203.57.50%20PM.png",
+                "title": "The case for slower growth",
+                "flytitle": "Debate",
+                "dateline": "",
+                "rubric": "If the rich world aimed for minimal growth, would it be a disaster or a blessing?",
+                "content": [
+                  {
+                    "component": "ArticleSubHead",
+                    "props": {},
+                    "content": ["A DISASTER"]
+                  },
+                  "ECONOMIES naturally grow. People innovate as they go through life. They also look around at what others are doing and adopt better practices or tools. They invest, accumulating financial, human and physical capital.",
+                  "Something is deeply wrong if an economy is not growing, because it means these natural processes are impeded. That is why around the world, since the Dark Ages, lack of growth has been a signal of political oppression or instability. Absent such sickness, growth occurs.",
+                  "So the question of whether rich countries have been aiming for excessive growth is profoundly misguided. The real question is whether they are getting barriers out of people’s way enough to allow growth to take place. Sometimes it requires regulation or public investment or even redistribution, rather than laissez-faire, to remove those barriers.",
+                  "Fundamentals of demography, education, capital and technology determine growth potential. A government that aims at “maximal” growth above this potential will quickly be frustrated—inflation will rise, bottlenecks will occur, financial markets will “correct”. A country that pursues growth persistently below potential suffers more acutely. The prospects of younger people dim, as they have in southern Europe during the forced contraction of the euro crisis. Savings are eroded, leaving many older people unable to maintain their health care and basic income.",
+                  "Climate change and water scarcity, among other resource-driven threats, are real concerns. But mispricing of their true costs and misallocation of those resources are their cause, not economic growth. If anything, greater rich-country growth is the hope for dealing with those mounting disasters, in two ways.",
+                  "First, it is economies growing on average at potential (Japan in the 1980s, Germany in the 2000s and now China) which have led in reducing their carbon emission per unit of GDP. Even America has improved in this regard, despite its childish political denials of global warming, because of the natural tendency for healthy growth to promote efficiency.",
+                  "Second, to the degree that closure of unclean industries or inefficient processes is required to reduce environmental harm, more growth makes that adjustment easier. Laid-off workers can more easily find new employment and special interests blocking progress can more easily be bought off. Given that rich-country environmental problems are primarily political, caused by politicians’ lack of courage to price carbon and water properly, growth is necessary (though not sufficient) to change those politics.",
+                  "For the other great global moral challenge, the reduction of poverty in the poor world, the argument is the same, but with even clearer evidence. More people have exited poverty globally in the past 30 years than in all of prior human history, precisely because the rich world steadily grew at potential rates for most of the time. That rich-country growth led to the diffusion of innovations to poorer countries and the expansion of markets for their exports. This would not have happened if the rich world had strived for minimal growth.",
+                  {
+                    "component": "ArticleSubHead",
+                    "props": {},
+                    "content": ["A BLESSING"]
+                  },
+                  "“ANYONE who believes that exponential growth can go on forever in a finite world is either a madman or an economist,” remarked (the economist) Kenneth Boulding. John Stuart Mill devoted an entire chapter of his “Principles of Political Economy” to the concept of the “stationary state”—a state that he believed would be “on the whole, a very considerable improvement on our present condition”.",
+                  "Yet the pursuit of economic growth has been the single most prevalent policy goal across the world for the past 70 years. Global output is now more than eight times higher than it was in 1950. If it continues to grow at the same average rate, then the world economy will be 17 times bigger in 2100 than it is today: a staggering 146-fold increase in economic scale in the space of just a few generations.",
+                  "This unprecedented ramping up of economic activity is increasingly at odds with the ecological constraints of a finite planet. By the turn of this century, it had been accompanied by the degradation of an estimated 60% of the world’s ecosystems. Earlier this year the Stockholm Resilience Centre, at Stockholm University, identified four key areas in which human activity already lies beyond the “safe operating space” of the planet: climate change, land-use change, loss of biosphere integrity and overload in bio-geochemical cycles.",
+                  "The default response to this dilemma is to suppose that we can “decouple” growth from its material impacts and continue to do so as the economy expands indefinitely. But the arithmetic of decoupling is a profoundly challenging one. A widening scientific consensus now accepts, for instance, that tackling climate change entails achieving zero net carbon emissions by 2100 and an economy that is taking carbon out of the atmosphere, rather than adding to it, in the second half of this century.",
+                  "Technological options to achieve decoupling clearly exist. But the most financially attractive of them (an aggressive pursuit of energy efficiency) may simultaneously make the task harder, as another economist, William Stanley Jevons, once pointed out, by increasing demand still further. Green investment opportunities are certainly there. But financial priorities and institutional incentives are often pointing in entirely the opposite direction.",
+                  "Most often, what stands in the way of progress is an undying allegiance to growth at all costs. Growth must go on, we insist: not just for the poorest countries, where a better quality of life is desperately needed; but even in the affluent West, where the satisfaction of human needs was long since transformed into a rampant and potentially damaging consumerism.",
+                  "Questioning growth is now deemed to be the act of lunatics, idealists and revolutionaries. Yet question it we must. The mantra of growth has failed us. It has failed the 2 billion people who still live on less than $2 a day. It is damaging the fragile ecology on which we depend for survival. It has fuelled our addiction to spiralling debt. Prosperity for the few, founded on financial instability, ecological destruction and persistent social injustice, is no basis for a civilised society."
+                  ]
+              }
+            },
+            {
+              "type": "posts",
+              "id": "8",
+              "attributes": {
+                "metaTags": [
+                  {
+                    "property": "og:type",
+                    "content": "article"
+                  },
+                  {
+                    "property": "og:title",
+                    "content": "Boom or gloom?"
+                  },
+                  {
+                    "property": "og:description",
+                    "content": "If Africa banks its demographic dividend"
+                  },
+                  {
+                    "property": "og:image",
+                    "content": "http://worldin:8082/sites/worldin/files/Screen%20Shot%202015-05-21%20at%203.57.50%20PM.png"
+                  },
+                  {
+                    "property": "article:published_time",
+                    "content": "2015-07-24T09:00:00.000Z"
+                  },
+                  {
+                    "property": "article:modified_time",
+                    "content": "2015-07-24T09:00:00.000Z"
+                  },
+                  {
+                    "property": "article:tag",
+                    "content": "Business"
+                  },
+                  {
+                    "property": "article:tag",
+                    "content": "economics"
+                  },
+                  {
+                    "name": "twitter:card",
+                    "content": "summary_large_image"
+                  },
+                  {
+                    "name": "twitter:title",
+                    "content": "Boom or gloom?"
+                  },
+                  {
+                    "name": "twitter:description",
+                    "content": "If Africa banks its demographic dividend"
+                  },
+                  {
+                    "name": "twitter:image:src",
+                    "content": "http://blog.keithcirkel.co.uk/content/images/2015/07/npm.png"
+                  }
+                ],
+                "section": "Business & economics",
+                "mainimage": "http://worldin:8082/sites/worldin/files/Screen%20Shot%202015-05-21%20at%203.57.50%20PM.png",
+                "title": "Boom or gloom?",
+                "flytitle": "If Africa banks its demographic dividend",
+                "dateline": "",
+                "rubric": "The difference economic reforms could make for Africa",
+                "content": [
+                  "THANKS to falling mortality rates and high birth rates, Africa’s population has been growing faster than that of any other continent. By 2050 sub-Saharan Africa is likely to be home to about 2.1 billion people, up from just under 1 billion today. One in five people will live in sub-Saharan Africa, compared with one in eight at present. And the region’s children—now nearly half of sub-Saharan Africa’s population—will have become the region’s workforce. By mid-century Africa’s working-age population may well be larger than its youth and its elderly combined.",
+                  "This “demographic dividend” offers Africa a huge opportunity, just as it has done for Asia in recent decades. Africa has the chance to achieve the sort of spectacular economic growth that would enable it to catch up with other regions, many of which will be grappling with the consequences of ageing populations and shrinking workforces. If it fails to grow fast enough, however, Africa risks the instability that could come from having too few jobs and too little hope to satisfy the aspirations of swelling ranks of youngsters. So what is it to be, boom or gloom?",
+                  "Or perhaps something in between. On current policies, according to long-term forecasts from The Economist Intelligence Unit (EIU), a sister company of The Economist, Africa will gain only modestly from its favourable demography. The continent’s jobs will mostly be low-productive ones, investors will remain wary of business conditions, infrastructure bottlenecks will hamper development. GDP growth rates of 5% a year in Nigeria and Kenya in 2015-50—the EIU’s central forecast—may seem respectable, yet will do little more than absorb the new entrants into the labour market.",
+                  "In this scenario, income per head will grow by 127%—not bad, but not enough for the average African to catch up with counterparts in developing Asia and Latin America. By 2050, no African economy will have reached today’s European living standards. And African economies, with narrow export bases, will be no less vulnerable to shocks than today.",
+                  "A better outcome is possible, however. The chart shows the EIU’s estimates of the difference that smarter policies could make. To make the most of the demographic dividend, policymakers will need to act on labour, capital and productivity.",
+                  "First, better family planning, girls’ education and investment in health would accelerate declines in fertility rates, and boost the relative size and the quality of the workforce. Second, Africa’s low capital stock and indadequate roads, power supply and other basic facilities need to be enhanced. At present, the region loses 2 percentage points of potential GDP growth every year to its shoddy infrastructure, according to the World Bank. Higher investment in this would make manufacturing more competitive and reduce the time taken to move goods—and workers—around the region. Third, cutting red tape would improve business conditions and make Africa a more attractive destination for foreign investors.",
+                  "It might be hard to imagine African lions emulating the Asian tigers of the 1960-90s. But even small improvements to productivity and capital would enable Angolans to be as well off as their Vietnamese counterparts by 2050. Overall, based on the EIU’s sample of four biggest economies sub-Saharan Africa (Nigeria, South Africa, Kenya and Angola), such reforms could translate into a 650% boost to Africa’s GDP between now and 2050, or 240% per African: the average African’s income would be some 50% higher than in the baseline scenario. That’s a dividend worth striving for."
+                ]
+              }
+            },
+            {
+              "type": "posts",
+              "id": "9",
+              "attributes": {
+                "metaTags": [
+                  {
+                    "property": "og:type",
+                    "content": "article"
+                  },
+                  {
+                    "property": "og:title",
+                    "content": "From horseless to driverless"
+                  },
+                  {
+                    "property": "og:description",
+                    "content": "If autonomous vehicles rule the world"
+                  },
+                  {
+                    "property": "og:image",
+                    "content": "http://worldin:8082/sites/worldin/files/Screen%20Shot%202015-05-21%20at%203.57.50%20PM.png"
+                  },
+                  {
+                    "property": "article:published_time",
+                    "content": "2015-07-24T09:00:00.000Z"
+                  },
+                  {
+                    "property": "article:modified_time",
+                    "content": "2015-07-24T09:00:00.000Z"
+                  },
+                  {
+                    "property": "article:tag",
+                    "content": "science"
+                  },
+                  {
+                    "property": "article:tag",
+                    "content": "technology"
+                  },
+                  {
+                    "name": "twitter:card",
+                    "content": "summary_large_image"
+                  },
+                  {
+                    "name": "twitter:title",
+                    "content": "From horseless to driverless"
+                  },
+                  {
+                    "name": "twitter:description",
+                    "content": "If autonomous vehicles rule the world"
+                  },
+                  {
+                    "name": "twitter:image:src",
+                    "content": "http://blog.keithcirkel.co.uk/content/images/2015/07/npm.png"
+                  }
+                ],
+                "section": "Science & technology",
+                "mainimage": "http://worldin:8082/sites/worldin/files/Screen%20Shot%202015-05-21%20at%203.57.50%20PM.png",
+                "title": "From horseless to driverless",
+                "flytitle": "If autonomous vehicles rule the world",
+                "dateline": "SHANGHAI",
+                "rubric": "Overturning industries and redefining urban life, self-driving cars promise to be as disruptive and transformative a technology as the mobile phone",
+                "content": [
+                  "SHORTLY after Thomas Müller eases his Audi A7 into the flow of highway traffic heading towards Shanghai, a message on the dashboard indicates that “piloted driving” is now available. Mr Müller, an Audi engineer, presses a button on the steering wheel and raises his hands. The car begins to drive itself, the steering wheel eerily moving on its own as the traffic creeps over a bridge towards the city centre.",
+                  {
+                    "component": "PullQuote",
+                    "props": {},
+                    "content": ["If 90% of cars on American roads were autonomous, accidents would fall from 5.5m a year to 1.3m"]
+                  },
+                  "This is, admittedly, a limited form of autonomy: the car stays on the same road, using cameras and a “LiDAR” scanner to follow the lane markings and maintain a constant distance from the vehicle in front. But this is how the world’s carmakers see the future of self-driving technology: as driver-assistance features that gradually trickle down from luxury vehicles to mass-market cars, just as electric windows and power steering did before them. Autonomous driving will, in this view, make motoring less stressful—drivers “arrive more relaxed”, says Mr Müller—but people will still buy and own cars just as they do today.",
+                  "For a different vision of the driverless future, visit Heathrow airport outside London, and head to a “pod parking” area. Transfers between the car parks and terminal are provided by driverless electric pods moving on dedicated elevated roadways. Using a touchscreen kiosk, you summon a pod and specify your destination. A pod, which can seat four people, pulls up, parks itself and opens its doors. Jump in, sit down and press the start button—the only control—and it drives you to your destination, avoiding other pods and neatly parking itself when you arrive, before heading off to pick up its next passengers.",
+                  "Like riding in the autonomous Audi, travelling by pod is thrilling for the first 30 seconds—but quickly becomes mundane. The difference is that self-driving vehicles that can be summoned and dismissed at will could do more than make driving easier: they promise to overturn many industries and redefine urban life. The spread of driver-assistance technology will be gradual over the next few years, but then the emergence of fully autonomous vehicles could suddenly make existing cars look as outmoded as steam engines and landline telephones. What will the world look like if they become commonplace?",
+                  "The switch from horse-drawn carriages to motor cars provides an instructive analogy. Cars were originally known as “horseless carriages”—defined, like driverless cars today, by the removal of a characteristic. But having done away with horses, cars proved to be entirely different beasts, facilitating suburbanisation and becoming symbols of self-definition. Driverless vehicles, too, will have unexpected impacts. They will look different. Early cars resembled the carriages from which they were derived, and car design took some years to escape its horse-drawn past. By the same token, autonomous vehicles need look nothing like existing cars. Already, Google’s futuristic pods are on the public roads of California, and some concept designs, liberated from the need to have steering wheels and pedals, have seats facing each other around a table.",
+                  "Autonomous vehicles will also challenge the very notion of car ownership. Cars are among the most expensive things most people own, yet they sit idle, on average, 96% of the time. That is justified by the convenience of having access to a car whenever you need it. These days, however, you can summon a car at will using a smartphone app for a taxi service, car-sharing scheme or rental provider. Google reckons that shared, self-driving taxis could have utilisation rates of more than 75%. If so, a much smaller number of cars would be needed to move the same number of people around. “There will be fewer cars on the road—perhaps just 30% of the cars we have today,” predicts Sebastian Thrun, a computer scientist at Stanford University and a former leader of Google’s self-driving-car project.",
+                  "The idea that autonomous vehicles will be owned and used much as cars are today is a “tenuous assumption”, says Luis Martinez of the International Transport Forum, a division of the OECD, a think-tank. Fleets of self-driving vehicles could, he says, replace all car, taxi and bus trips in a city, providing as much mobility with far fewer vehicles. An OECD study modelling the use of self-driving cars in Lisbon found that shared “taxibots” could reduce the number of cars needed by 80-90%. Similarly, research by Dan Fagnant of the University of Utah, drawing on traffic data for Austin, Texas, found that an autonomous taxi with dynamic ride-sharing could replace ten private vehicles. This is consistent with the finding that one extra car in a car-sharing service typically takes 9-13 cars off the road. Self-driving vehicles could, in short, reduce urban vehicle numbers by as much as 90%.",
+                  {
+                    "component": "ArticleSubHead",
+                    "props": {},
+                    "content": ["Driven to tears"]
+                  },
+                  "All this would be transformational for carmakers. They would end up selling autonomous vehicles to fleet operators, rather than to individual drivers. The value in carmaking will shift from hardware to software and from products to services, says Mr Martinez. That would shake existing carmakers, just as smartphones upended Nokia and Kodak. Already, high-tech newcomers such as Google, Uber and Tesla are muscling in.",
+                  "Yet car-industry executives gamely insist that many people will still want to own their own vehicles and that the popularity of leasing means the industry has already moved to a service model. It sounds a lot like wishful thinking, if not denial.",
+                  "Carmaking is not the only industry that faces upheaval. So does car insurance—worth $198 billion a year in America alone—as cover switches from millions of consumers to a handful of fleet operators. In February three big American insurers, Cincinnati Financial, Mercury General and Travelers, noted in their SEC filings that driverless cars threaten to disrupt their business. Similarly, LKQ, a car-parts firm, pointed out in its filing that fewer cars on the road, and fewer accidents, could reduce its sales.",
+                  "Automation would, more obviously, be bad news for taxi drivers. A study by Columbia University found that a fleet of 9,000 autonomous vehicles could replace all 13,000 taxis in New York. Passengers would spend less time waiting, and would pay less per mile, because paying drivers is the biggest cost for taxi operators. No wonder Uber is keen on driverless vehicles. “When there is no other dude in the car, the cost of taking an Uber anywhere becomes cheaper than owning a vehicle,” observed its boss, Travis Kalanick, last year. Uber’s first test vehicle was recently spotted on the streets of Pittsburgh.",
+                  "Other workers stand to lose as well. Rio Tinto, a mining giant, is already using 53 self-driving lorries across three of its sites in Australia. The first self-driving truck licensed for testing on public highways, built by Daimler, hit the road in May. America’s 3.5m truck drivers sustain workers in other businesses, too, such as motels and restaurants. The current arguments over Uber, Lyft and other ride-hailing services (which at least still require drivers) may seem like a picnic compared with the opposition to driverless vehicles.",
+                  {
+                    "component": "ArticleSubHead",
+                    "props": {},
+                    "content": ["Safety first"]
+                  },
+                  "But self-driving cars would also have enormous benefits. Today 94% of car accidents are due to human error, according to America’s National Highway Traffic Safety Administration, and the three leading causes are alcohol, speeding or distraction. Accidents kill around 1.2m people a year, reports the World Health Organisation, equivalent to a 9/11 attack every day.",
+                  "Driverless cars cannot drink alcohol, break the speed limit or get distracted by a text message, so accidents should occur much less often. Google’s driverless vehicles have driven 1.8m miles (2.9m kilometres) in the past six years, and have been involved in 12 minor accidents, none of which caused injury and none of which was the car’s fault. A study by the Eno Centre for Transportation, a non-profit group, estimates that if 90% of cars on American roads were autonomous, the number of accidents would fall from 5.5m a year to 1.3m, and road deaths from 32,400 to 11,300.",
+                  "Once self-driving vehicles become available, some places will probably ban ordinary cars on safety grounds, starting with city centres, resorts, business parks and campuses. A report on self-driving cars from Morgan Stanley predicts that attitudes will quickly shift from “I don’t want to share the road with robots” to “I don’t want to share the road with other human drivers”. People in Google’s home town of Mountain View, California, are now used to seeing its prototype vehicles on the streets. Some even complain that they drive too timidly, waiting for pedestrians to finish crossing, for example, to the annoyance of drivers revving behind them. Strikingly, nobody seems to be scared of them.",
+                  "As well as being safer, self-driving vehicles would make traffic flow more smoothly, because they would not brake erratically, could be routed to avoid congestion and could travel close together to increase road capacity. A study by Texas A&M University estimates that 90% penetration of self-driving cars in America would be equivalent to a doubling of road capacity and would cut delays by 60% on motorways and 15% on suburban roads. And riders in self-driving vehicles would be able to do other things. Morgan Stanley calculates that the resulting productivity gains would be worth $1.3 trillion a year in America and $5.6 trillion worldwide. Children, the elderly and the disabled could gain more independence (one of Google’s videos shows a blind man doing errands in an autonomous car).",
+                  "With cars in constant use, much less parking space would be needed. Parking accounts for as much as 24% of the area of American cities, and some urban areas have as many as 3.5 parking spaces per car; even so, people looking for parking account for 30% of miles driven in urban business districts. By liberating space wasted on parking, autonomous vehicles could allow more people to live in city centres; but they would also make it easier for workers to live farther out. If you can sleep on the journey a longer commute becomes feasible, notes Mr Fagnant, who foresees a “simultaneous densification of cities, and expansion of the exurbs”.",
+                  {
+                    "component": "ArticleSubHead",
+                    "props": {},
+                    "content": ["The bumpy road ahead"]
+                  },
+                  "Even though they will have fewer crashes, self-driving cars are sure to be held to a higher standard than human drivers when they are involved in accidents. They will present “new types of crash scenarios”, says Mr Martinez. When faced with an unavoidable impact, should self-driving vehicles try to minimise injuries to their own passengers, or minimise harm overall? Autonomous vehicles bring to life questions from the domain of experimental philosophy, or “trolleyology”: its theoretical ethical dilemmas involving runaway vehicles seem suddenly all too relevant.",
+                  "At the very least, says Mr Martinez, regulators will demand that the algorithms that make such judgments should be audited, and their decision processes rendered transparent. Some self-driving vehicles are already fitted with “black boxes” to facilitate investigation of accidents. Regulators will face difficult questions about the legal liability of carmakers and fleet operators.",
+                  "Car-lovers will doubtless mourn the passing of machines that, in the 20th century, became icons of personal freedom. But this freedom is illusory. The empty roads seen in car advertisements are not most people’s experience of driving. In a driverless future, people will come to wonder why they tolerated such a high rate of road deaths, and why they spent so much money on machines that mostly sat unused. A world of self-driving vehicles may sound odd, but coming generations will consider the era of car ownership to have been much stranger."
+                  ]
+              }
+            },
+            {
+              "type": "posts",
+              "id": "10",
+              "attributes": {
+                "metaTags": [
+                  {
+                    "property": "og:type",
+                    "content": "article"
+                  },
+                  {
+                    "property": "og:title",
+                    "content": "Taking the hit"
+                  },
+                  {
+                    "property": "og:description",
+                    "content": "If an asteroid heads for Earth"
+                  },
+                  {
+                    "property": "og:image",
+                    "content": "http://worldin:8082/sites/worldin/files/Screen%20Shot%202015-05-21%20at%203.57.50%20PM.png"
+                  },
+                  {
+                    "property": "article:published_time",
+                    "content": "2015-07-24T09:00:00.000Z"
+                  },
+                  {
+                    "property": "article:modified_time",
+                    "content": "2015-07-24T09:00:00.000Z"
+                  },
+                  {
+                    "property": "article:tag",
+                    "content": "science"
+                  },
+                  {
+                    "property": "article:tag",
+                    "content": "technology"
+                  },
+                  {
+                    "name": "twitter:card",
+                    "content": "summary_large_image"
+                  },
+                  {
+                    "name": "twitter:title",
+                    "content": "Taking the hit"
+                  },
+                  {
+                    "name": "twitter:description",
+                    "content": "If an asteroid heads for Earth"
+                  },
+                  {
+                    "name": "twitter:image:src",
+                    "content": "http://blog.keithcirkel.co.uk/content/images/2015/07/npm.png"
+                  }
+                ],
+                "section": "Science & technology",
+                "mainimage": "http://worldin:8082/sites/worldin/files/Screen%20Shot%202015-05-21%20at%203.57.50%20PM.png",
+                "title": "Taking the hit",
+                "flytitle": "If an asteroid heads for Earth",
+                "dateline": "FRASCATI, ITALY",
+                "rubric": "Just because you can move the stars in their courses, it doesn’t mean you should",
+                "content": [
+                  "ON APRIL 13th 2015 the Minor Planet Centre (MPC), an office with a staff of six which looks after such matters for the International Astronomical Union, recorded hundreds of newly discovered asteroids—a typical daily haul. The one to which it assigned the name 2015 PDC, though, stood out.",
+                  "When asteroids are discovered in orbits that come close to the Earth’s, as this one did, the MPC makes various calculations to see if they pose a threat. Because observations of small, distant rocks cannot be made with perfect accuracy, those calculations define a “corridor” where the asteroid might be. The calculations for 2015 PDC showed that on September 3rd 2022 the Earth would cross the corridor where the asteroid might be. The two might collide.",
+                  "That was not, in itself, too worrying. Newly discovered asteroids have had measurable possibilities of hitting the Earth before; further observations, and thus a more precise understanding of the rocks’ orbits, have always ruled those impacts out. The one exception to that rule so far, 2008 TC3, was an asteroid only 4 metres (13 feet) across; when it exploded in the upper atmosphere in 2008, just days after its discovery, it mattered to no one except the meteorite hunters who rushed to Sudan to find the remains that fell to Earth.",
+                  "As 2015 PDC’s orbit became better known the corridor in which it might be on that fateful day in 2022 shortened. But it still contained the Earth. By June the probability of an impact had risen to 1%, making it the most threatening asteroid astronomers had ever seen. By September governments in America, Europe, Russia and China had started work on space missions aimed at changing the asteroid’s orbit by ramming into it. Even at a speed of more than 10km (6 miles) a second, hitting a billion-tonne asteroid with a few tonnes of spacecraft will make only a minute difference to the asteroid’s orbit.",
+                  "But a minute difference, made early enough, can provide the margin between a near miss and a hit that is palpable on a planetary scale. And 2015 PDC looked like providing such a hit. Early estimates put its diameter between 140 and 400 metres. Even if it were at the small end of that range, though, when it hit the Earth at 11km a second it would release as much energy as hundreds of large nuclear warheads set off simultaneously. At the large end the hundreds would become thousands.",
+                  "Towards the end of 2015 the sun came between the Earth and the rock, making further observations impossible for a while. After observations resumed the following year, though, an impact became certain. The remaining uncertainty was about where, exactly, it would hit. The risk corridor was wrapped around the Earth on a great-circle arc that began in the tropical Pacific and ran north-west over the Philippines and across the South China Sea before passing over a swathe of Asia beginning in Vietnam and ending in Iran. The track passed over a surprisingly large fraction of the world’s population and three megacities—Dhaka, New Delhi and Tehran. You would have been hard put to have imagined a more threatening rock.",
+                  {
+                    "component": "ArticleSubHead",
+                    "props": {},
+                    "content": ["Designed to disturb"]
+                  },
+                  "That was because Paul Chodas, an asteroid expert at JPL, the laboratory that manages most of NASA’s planetary science, had put a lot of his own imagination into making 2015 PDC intriguingly disturbing. He and a few colleagues invented the asteroid, and its orbit, as a scenario to be discussed at the Planetary Defence Conference held in Frascati this April. The scenario unfolded over five days, in breaks between technical papers, with participants drafted in to imagine the reactions of world leaders, the media and the public. Their deliberations revealed a lot about the nature of the threat asteroids pose and the response that a real threat might provoke—a response which could make the danger greater than it would otherwise be.",
+                  "As with all missions to other parts of the solar system, interceptors aimed at 2015 PDC could be launched only at a specific time defined by the asteroid’s orbit. They would have to take off in late August 2019 in order to reach the rock in early March 2020, 900 days before the impact. The largest of the interceptors originally proposed fell by the wayside because the rocket could not be readied in time. Still, the six remaining spacecraft—three American attempts and one each from China, Russia and Europe—were to offer more than enough kinetic energy to change the asteroid’s orbit by the two centimetres a second required to make it miss the Earth in 2022.",
+                  "What was not much discussed—other than by Bhavya Lal of the Science and Technology Policy Institute in Washington, DC, who was representing India in the role-playing—was whether the deflection the spacefaring powers were undertaking was a good idea. By August 2019 the possible impact sites had been narrowed down to an arc stretching from the Philippines to Vietnam across the South China Sea. An impact in the middle of the sea would have threatened 80m people living on its coasts, almost half of them in China, with tsunami-like waves. The damage could be enormous—but unlike the hazards posed by most natural disasters its timing would be known, to within an hour, years in advance, and its effects could be modelled. Breakwaters could be built in front of the larger cities, evacuation plans perfected, ?  nuclear plants at risk from the waves shut down, populations resettled either for a few crucial weeks or for good.",
+                  "A fair bit of this work would be necessary to deal with the sea-level rises expected due to global warming anyway; the asteroid would just mean getting it done faster. The hundreds of billions of dollars invested would increase GDP, as spending after a disaster does. But this possibility—referred to at the meeting as “taking the hit”—got short shrift.",
+                  {
+                    "component": "ArticleSubHead",
+                    "props": {},
+                    "content": ["Oops"]
+                  },
+                  "Which was a pity, because in Dr Chodas’s scenario the deflection went wrong. Instead of being nudged safely onto a new trajectory, the asteroid was cleft in two. The larger part had been given a big enough impulse to no longer be an imminent threat, but the smaller part was still on a collision course. And now its orbit was newly uncertain. The corridor that had been shortening was lengthened, with the once-threatened, then-safe places between Vietnam and Tehran newly at risk again thanks to the actions of space programmes that were mostly based in places (Europe, America, Russia) that were at no direct risk at all. India began work on a mission that would use a nuclear warhead to try to blast the new fragment to smithereens on its final approach—but which might have simply changed its impact point again.",
+                  "China warned that it wanted a veto over any such mission; if it did not approve of the way it was being done it would feel justified in using anti-satellite weapons to shoot down the Indian rocket pretty much as soon as it took off. Iran, previously safe, fulminated against the Great Satan, and it was hard not to think it had a point. Hannes Mayer, an Austrian lawyer who has given the application of space law to such situations a lot of thought, raised the possibility that by altering the asteroid’s orbit the intercepting nations changed its legal status from that of a “celestial body” for which no one was responsible to that of a “space object”—and thus become liable for any damage that it did.",
+                  "By the end of the scenario, when the asteroid was a few days from exploding in the sky over Dhaka with more power than 1,000 Hiroshima bombs and more than 20m people were being evacuated, that was looking like a great deal of liability. The question of India’s last-ditch nuclear interception, and China’s worries, were brushed aside as beyond the scenario’s scope. In the real world, though, a botched interception which created a crisis for people who would otherwise have avoided one would be a grave issue—perhaps, in some circumstances, casus belli.",
+                  "Bigger rocks have hit the Earth, doing great damage in the process. There is a 90km crater under Chesapeake Bay which bears witness to an impact 35m years ago, and a 180km crater on the Yucatan which marks the impact site of the rock that ended the age of the dinosaurs. But, in practice, astronomers are confident that their diligent observations have discovered almost every one of the asteroids more than a kilometre wide that cross the Earth’s orbit, and none of them poses a threat in the coming centuries. In the coming decades it is likely that ever-more-thorough surveys will mean that there is similar assurance for rocks down to 100 metres or so.",
+                  "What is more, a rock 250 metres across (the size of 2015 PCD before it was cleft in two) hits the Earth, on average, only once every 500 centuries. So the scenario played out at Frascati is a highly unlikely one. Getting only seven years’ warning of such an impact is unlikelier still. With ample time it would be possible to use gentler methods to try to adjust the orbit.",
+                  "At some point, though, a rock large enough to do real damage—something like the 50-metre beast that exploded over Siberia in 1908 with the force of the largest nuclear weapon ever tested, the sort of visitor statistics suggest should be expected every century or so—will be discovered on the way in. Then the nations of the world will have to decide what to do. The technical fix of moving it will appeal to some; and if there is time enough and the impact site is valuable enough, then they might be wise to try it. But the lessons of 2015 PDC, in which a disaster that might well have been weathered, if at huge expense, was traded for one in which a megacity was destroyed, should give them pause."
+                  ]
+              }
+            },
+            {
+              "type": "posts",
+              "id": "11",
+              "attributes": {
+                "metaTags": [
+                  {
+                    "property": "og:type",
+                    "content": "article"
+                  },
+                  {
+                    "property": "og:title",
+                    "content": "A billion-person question"
+                  },
+                  {
+                    "property": "og:description",
+                    "content": "If India’s monsoon fails"
+                  },
+                  {
+                    "property": "og:image",
+                    "content": "http://worldin:8082/sites/worldin/files/Screen%20Shot%202015-05-21%20at%203.57.50%20PM.png"
+                  },
+                  {
+                    "property": "article:published_time",
+                    "content": "2015-07-24T09:00:00.000Z"
+                  },
+                  {
+                    "property": "article:modified_time",
+                    "content": "2015-07-24T09:00:00.000Z"
+                  },
+                  {
+                    "property": "article:tag",
+                    "content": "science"
+                  },
+                  {
+                    "property": "article:tag",
+                    "content": "technology"
+                  },
+                  {
+                    "name": "twitter:card",
+                    "content": "summary_large_image"
+                  },
+                  {
+                    "name": "twitter:title",
+                    "content": "A billion-person question"
+                  },
+                  {
+                    "name": "twitter:description",
+                    "content": "If India’s monsoon fails"
+                  },
+                  {
+                    "name": "twitter:image:src",
+                    "content": "http://blog.keithcirkel.co.uk/content/images/2015/07/npm.png"
+                  }
+                ],
+                "section": "Science & technology",
+                "mainimage": "http://worldin:8082/sites/worldin/files/Screen%20Shot%202015-05-21%20at%203.57.50%20PM.png",
+                "title": "A billion-person question",
+                "flytitle": "If India’s monsoon fails",
+                "dateline": "DELHI",
+                "rubric": "A more erratic rainy season in India could lead to mass famine. But there are ways to avoid such a disaster",
+                "content": [
+                  "NOTHING in India is as terrifying as the thought that the monsoon might not come. Robert Kaplan, in his book “Monsoon”, claims global warming is causing a more erratic monsoon, which “could spell disaster”. Around half of India’s population, some 600m people, still depend on farming, and nearly two-thirds of fields have no irrigation, so must rely on rain. Without water at the right time, hundreds of millions of people would see their incomes crash. Food costs would rise. And as India is an emerging global giant in food production, exporting more rice than anyone, droughts could push up global prices.",
+                  "Waiting for the monsoon is an annual ritual. In the early summer, weeks pass without rain. Temperatures and frustration rise. For villagers there is irritable inactivity, hours slumped on a charpoy under a tree, nights on a flat roof in hope of a breeze. Even birds and insects fall quiet, exhausted. Farmers yearn to start planting.",
+                  "Cities are crowded and feel worse. The highest temperature ever measured in India, 50.6°C (123°F), was recorded in May 1956 in Alwar, Rajasthan. Delhi is delightfully leafy, but in these months a drab crust encases its trees, bushes and cars.",
+                  "The rich retreat under air-conditioners or inside cooled cars. Middle classes can at least resort to fans. It is those who labour in temperatures well above 40°C who most risk heart attacks and heat-stroke.",
+                  {
+                    "component": "PullQuote",
+                    "props": {},
+                    "content": ["Evidence from the past quarter-century suggests the Indian monsoon is growing less stable"]
+                  },
+                  "Newspapers produce maps tracking the fronts of black clouds as if they were an approaching, welcome, army. It is natural to think of the cavalry galloping to the rescue from each coast—water evaporated up from the Indian Ocean and the Bay of Bengal—as the monsoon progresses inwards and northwards. Far inland, you read of countrymen drenched in cooling water, and anticipate your own respite.",
+                  "That moment, usually late June for Delhi, is joyful. Cities erupt in delight as fat, dust-filled raindrops flop down. Novelists and poets revel in the instant: it is more deeply felt, for many, than any religious festival. It is also the sexiest time of year: a standard scene for Indian film-makers is a Bollywood starlet drenched in monsoon rain, set to celebratory music.",
+                  "So imagine the anguish, the misery, when relief does not arrive. A seriously late monsoon, or a patchy one which releases water only in some places, an unpredictable or scanty one, all can be devastating. An uneven monsoon, which unloads its waters in a few, overwhelming torrents, followed by long patches of dryness, can destroy the fortunes of farmers and others in days. Mumbai in 2005 was all but washed away by intense downpours far stronger than anyone could remember (this year, on June 19th, the city had the heaviest rains since those 2005 floods). Immense cloudbursts in Uttarakhand killed over 6,000 people in 2013. Kashmir suffered a similar strike last year, with deaths counted in the hundreds.",
+                  "In India the monsoon months of June to September provide three-quarters of total rainfall, an average of 89cm (35 inches). But in four out of ten years it proves erratic. Evidence from the past quarter-century suggests the Indian monsoon is growing less stable. Signs are tentative, and predicting monsoon behaviour is difficult. A lack of devices for recording and sharing data has hampered scientists’ work.",
+                  "The Intergovernmental Panel on Climate Change (IPCC), in its latest report on the scientific consensus on the Indian monsoon, says “future increase in precipitation extremes related to the monsoon is very likely” and estimates, for South Asia, “normal monsoon years are likely to become less frequent in the future”. It recalls “abrupt shifts” in the Indian monsoon in the past 1,000 years that gave rise to “prolonged and intense droughts”.",
+                  "Climate change should mean more rain for India. Over the past six decades its land mass has been warming. Orchards are being planted on higher slopes than before; Himalayan glaciers are retreating. In theory, more heat means more evaporated water in the air, drawn in from the seas, and thus wetter, longer monsoons. Scientists talk of a 10% increase in downpours, good for recharging reservoirs, rivers and groundwater, though it won’t necessarily arrive in the right time, places or intensity.",
+                  "Yet India’s air is also getting more polluted. More particles in the air probably explain why, despite the heating, rainfall has in fact been declining slightly overall, says the IPCC. A Japanese study, which tries to predict long-term rainfall for southern India, suggests a rapid decline is possible. More particle-filled air could also mean monsoons dropping water in ever more intense, destructive bursts.",
+                  "Other unknowns include doubts about the formation of deep depressions out at sea (crucial for the start of the monsoon), and questions of how declining snow cover in the Himalayas might affect the northern reach of the summer rains. It is safe to predict more unpredictability.",
+                  {
+                    "component": "ArticleSubHead",
+                    "props": {},
+                    "content": ["Stealing India’s thunder"]
+                  },
+                  "Talk of a failed monsoon does not imply the sudden end of an age-old phenomenon. But there are profound risks if it starts to go haywire. Heidi Cullen of Climate Central, an American research group, says a failing monsoon would have “huge” consequences: “The country lacks large reservoirs that can moderate a drought’s impact on food supplies.”",
+                  "History offers some clues. The years 1876 and 1877 saw deadly hunger in southern India. In August 1877 The Economist said the area become “fatally exposed” to famines, as “the soil is poorer, barren tracts are more frequent, the land-tenure is economically unsound and practically oppressive”. Showing early environmentalism, we also noted “the reckless destruction of the forests during past generations has made the rainfall more precarious.” Later that year the monsoon in southern India in effect failed: nearly 30% of areas suffered severe drought, and another 30% moderate drought. It was one of the worst years ever recorded. Without irrigation, crops died. Human costs were immense. Tens of millions went hungry, were impoverished as food prices soared, displaced to relief camps or forced off their land. Several million people died.",
+                  "Political consequences followed. During famines colonial rulers continued to export grain from starving India. Anger about that became a spur to those who sought independence. In 1885 Allan Hume, a civil servant dismayed by the behaviour of his own government, formed the Indian National Congress, which eventually negotiated the British exit.",
+                  "What if monsoons failed today? Indian farmers rarely have insurance and their savings are typically low. A single bad monsoon would be nasty, but two or three in a row could spread enormous disquiet and spur migration into cities. And if such upheaval were to happen in India, it would probably also affect Pakistan and Bangladesh (together with another 350m people or so) that depend on the same monsoon. Potentially a fifth of the world’s population would be directly affected.",
+                  "But unlike the India of 1877, the country today has structures to mitigate the effects of erratic or failed monsoons, at least for a while. State-run granaries are wasteful and often a source of corruption, but the point of holding large stocks is to release rations when supplies grow tight. Democratic rulers are quick to stop exporting crops in times of hunger, though that can worsen problems in other countries. As the economist Amartya Sen points out, democracies do not see famines.",
+                  "Better technology, improved weather forecasting and more capacity for assessing climate data mean warnings of bad weather are improving. In the long run farmers can adapt. India could invest more in reservoirs, small-scale water harvesting, drip irrigation and crops (including genetically modified ones) better able to withstand droughts or grow in brackish water. And India must one day get to grips with terrible air pollution. Reducing that could yet mean more rain in the monsoon."
+                  ]
+              }
+            },
+            {
+              "type": "posts",
+              "id": "12",
+              "attributes": {
+                "metaTags": [
+                  {
+                    "property": "og:type",
+                    "content": "article"
+                  },
+                  {
+                    "property": "og:title",
+                    "content": "Imagine all the empowered people"
+                  },
+                  {
+                    "property": "og:description",
+                    "content": "If every woman has a smartphone"
+                  },
+                  {
+                    "property": "og:image",
+                    "content": "http://worldin:8082/sites/worldin/files/Screen%20Shot%202015-05-21%20at%203.57.50%20PM.png"
+                  },
+                  {
+                    "property": "article:published_time",
+                    "content": "2015-07-24T09:00:00.000Z"
+                  },
+                  {
+                    "property": "article:modified_time",
+                    "content": "2015-07-24T09:00:00.000Z"
+                  },
+                  {
+                    "property": "article:tag",
+                    "content": "science"
+                  },
+                  {
+                    "property": "article:tag",
+                    "content": "technology"
+                  },
+                  {
+                    "name": "twitter:card",
+                    "content": "summary_large_image"
+                  },
+                  {
+                    "name": "twitter:title",
+                    "content": "Imagine all the empowered people"
+                  },
+                  {
+                    "name": "twitter:description",
+                    "content": "If every woman has a smartphone"
+                  },
+                  {
+                    "name": "twitter:image:src",
+                    "content": "http://blog.keithcirkel.co.uk/content/images/2015/07/npm.png"
+                  }
+                ],
+                "section": "Science & technology",
+                "mainimage": "http://worldin:8082/sites/worldin/files/Screen%20Shot%202015-05-21%20at%203.57.50%20PM.png",
+                "title": "Imagine all the empowered people",
+                "flytitle": "If every woman has a smartphone",
+                "dateline": "",
+                "rubric": "Smartphones could transform women’s lives, says Melinda Gates, co-chair, Bill & Melinda Gates Foundation",
+                "content": [
+                  "“WHO is Sabita?” I was looking right at Sabita Devi when she said these words. She was describing her life as a wife and mother in Jharkhand, one of the poorest states in India, where she has spent most of her days inside the four walls of her home. “No one in my village knew my name,” Sabita told me. Her contact with the outside world was mediated entirely by her husband: who she could talk to, what she could buy, when (and if) she could see a doctor. She was isolated from everyone and everything but her children.",
+                  "That feeling of being alone and apart is common to women across space and time—just ask any American feminist author over the past century. The solution is frighteningly complex. It involves gradually changing prevailing norms in thousands of cultures, and there is no app for that.",
+                  "But that doesn’t mean that apps won’t help—a lot. Suppose every woman in the world had a smartphone. That could help shatter their isolation and unleash their powers like never before.",
+                  "Take health care. When every woman has a smartphone, she will be able to get the right information, at the right time, in the right format. For example, an illiterate Nigerian woman in her first trimester of pregnancy might receive a voice message in the Hausa language describing anaemia and explaining how to get iron supplements. The same system can remind her when she needs to go for a prenatal visit, or take her children for immunisations. Eventually, she’ll be able to use her phone for a video consultation with a doctor when non-routine problems arise. With the doctor’s guidance, she’ll also be able to use her phone to check her temperature, blood pressure and other vital signs to assist with her own diagnosis.",
+                  {
+                    "component": "PullQuote",
+                    "props": {},
+                    "content": ["When women determine the family budget, children are 20% more likely to survive"]
+                  },
+                  "Then there’s farming. Poor farmers stay poor in large part because they don’t have the information they need to get the most out of their land. For instance, they know almost nothing about the nutrient content of their soil, which means they can’t choose the right fertilisers or the crops that will grow best. They also don’t have reliable information about market prices, so they are forced to take the price being offered by whichever trader comes by. Since most farmers in Africa (and many in South Asia) are women, this is a women’s problem. And women farmers are also less productive than men, on average, for reasons ranging from gender bias in agriculture training to how hard it is for women to hire and manage male labourers during the harvest.",
+                  "But with smartphones, women farmers will be able to watch videos of local farmers providing training based on local soil and weather conditions. They will also have apps that tell them what prices their crops are fetching at various markets, so they can be informed sellers. Using their phones to connect to each other, women farmers can also organise effectively in co-operatives so they can express their demands as members of a powerful group rather than as isolated individuals.",
+                  "Banking provides another example. Even the poorest women have assets. One of the keys to empowerment is making sure they can control what happens to these. The most striking study I’ve ever read shows that when women determine the family budget, children are 20% more likely to survive—simply because of the things they tend to spend money on (such as food and health care).",
+                  "Traditional banks haven’t found it profitable to serve customers making transactions in tiny amounts. That leaves poor women to navigate the informal economy, hiding cash, buying jewellery or livestock as an illiquid form of savings and borrowing from moneylenders at usurious rates.",
+                  "Digital technology slashes transaction costs, though, which means that people can save and borrow money or purchase insurance securely and in small amounts through their phones. This technology is already taking hold in countries like Bangladesh and Kenya, but many emerging digital economies are male-dominated because men own mobile phones at much higher rates than women. In Bangladesh only 46% of women own a phone, compared with 76% of men. Consequently, only 13% of Bangladeshi women have used mobile money, compared with 32% of men. When these percentages even out around the world, it will unlock the economic prowess of a billion people.",
+                  {
+                    "component": "ArticleSubHead",
+                    "props": {},
+                    "content": ["It isn’t hard to do"]
+                  },
+                  "The beauty of this vision is that you don’t need to strain that hard to see it clearly. I am not positing a science-fiction future. More than two-thirds of the people on the planet have access to mobile phones, and, increasingly, these are smartphones. Last year, more than 1 billion smartphones were sold worldwide.",
+                  "Those statistics are encouraging, but we’re not even close to universal smartphone coverage. Data must get cheaper. Many people with smartphones don’t even use the internet because it is too expensive. And connectivity has to reach the most remote places in the world, where the need for connection—in the widest sense of the word—is greatest.",
+                  "That still leaves the job of making sure that women own phones in the same numbers as men—and that there are apps designed to address their specific needs. An even larger hurdle is the fact that illiteracy is becoming a girls’ problem, and women who can’t read will never get the most out of their mobile phones.",
+                  "No technology by itself can usher in gender equality. But, by helping women forge connections they’ve never had, the smartphone can make a big difference."
+                  ]
+              }
+            },
+            {
+              "type": "posts",
+              "id": "13",
+              "attributes": {
+                "metaTags": [
+                  {
+                    "property": "og:type",
+                    "content": "article"
+                  },
+                  {
+                    "property": "og:title",
+                    "content": "Chiang’s China"
+                  },
+                  {
+                    "property": "og:description",
+                    "content": "Post-war China, alternatively"
+                  },
+                  {
+                    "property": "og:image",
+                    "content": "http://worldin:8082/sites/worldin/files/Screen%20Shot%202015-05-21%20at%203.57.50%20PM.png"
+                  },
+                  {
+                    "property": "article:published_time",
+                    "content": "2015-07-24T09:00:00.000Z"
+                  },
+                  {
+                    "property": "article:modified_time",
+                    "content": "2015-07-24T09:00:00.000Z"
+                  },
+                  {
+                    "property": "article:tag",
+                    "content": "History"
+                  },
+                  {
+                    "property": "article:tag",
+                    "content": "China"
+                  },
+                  {
+                    "name": "twitter:card",
+                    "content": "summary_large_image"
+                  },
+                  {
+                    "name": "twitter:title",
+                    "content": "Chiang’s China"
+                  },
+                  {
+                    "name": "twitter:description",
+                    "content": "Post-war China, alternatively"
+                  },
+                  {
+                    "name": "twitter:image:src",
+                    "content": "http://blog.keithcirkel.co.uk/content/images/2015/07/npm.png"
+                  }
+                ],
+                "section": "History",
+                "mainimage": "http://worldin:8082/sites/worldin/files/Screen%20Shot%202015-05-21%20at%203.57.50%20PM.png",
+                "title": "Chiang’s China",
+                "flytitle": "Post-war China, alternatively",
+                "dateline": "",
+                "rubric": "What if Mao Zedong’s Communist Party had lost the Chinese civil war to Chiang Kai-shek’s Nationalist Party?",
+                "content": [
+                  "WHEN the second world war ended, the 3.7m-strong army of China’s leader, Generalissimo Chiang Kai-shek, was badly weakened by its fight with the Japanese and a Communist insurgency. But it still had the upper hand against the Communists: superior by far in numbers and equipment. As Soviet forces withdrew from Manchuria in the north-east, which they had taken from the Japanese, Chiang’s forces surged forward to regain the territory. Chinese Communists in the area, who had hitherto been backed by the Russians, were shattered by the onslaught.",
+                  "But in 1946 the Americans, anxious to prevent an all-out civil war between Chiang and the Communists’ leader, Mao Zedong, persuaded Chiang to stop fighting. It was a moment that may have changed history: the few weeks’ hiatus enabled Mao to replenish his forces with Soviet aid. When the truce broke down, Chiang lost Manchuria and eventually the civil war. Americans—particularly right-wingers—kicked themselves about it for many years afterwards. What if Mao’s victory had been avoided?",
+                  "China’s spectacular rise in the past three decades has helped the Communists parry suggestions that the country would have been better off without Mao. But it may well have been. Chiang’s army fled to the island of Taiwan, which prospered. Mao’s China suffered economic ruin before Deng Xiaoping eventually began to turn its fortunes around in the late 1970s. Had China’s economy grown at the same pace as Taiwan’s since 1950, its GDP would have been 42% bigger by 2010 than it actually was. In other words, it might have achieved its growth miracle plus another one about the size of France’s economy.",
+                  "Chiang would have remained in charge of a corrupt, autocratic government with a brutal secret police. His Nationalist Party, the Kuomintang (KMT), would have faced discontent among the rural poor who formed the bulwark of Mao’s forces. However, Chiang’s brand of authoritarianism may have proved a softer one than Mao’s. There would have been no killings of millions of landlords purely on ideological grounds, and no Great Leap Forward in the late 1950s, which caused a famine that killed tens of millions. Unlike Mao, he would not have wiped out private enterprise and forced peasants to surrender their land to “People’s Communes”, a policy that exacerbated the famine and that—though long since officially repudiated—still plagues the development of China’s countryside. Neither would Chiang have plunged China into the chaos of the Cultural Revolution of the 1960s and 70s, during which millions more were killed or persecuted.",
+                  "Under Chiang, China would not have had to wait 30 years before becoming part of the global economy. To be sure, Chiang would have tried to protect China’s markets from foreign competition, just as Taiwan and other Asian economies did during their periods of rapid take-off. But he would have been quicker to relax such restrictions. Taiwan was ready for membership of the World Trade Organisation long before China joined in 2001.",
+                  {
+                    "component": "ArticleSubHead",
+                    "props": {},
+                    "content": ["Asia reimagined"]
+                  },
+                  "The strategic map of Asia would have been very different had Chiang won the civil war. He would not have supported North Korea’s invasion of the South in 1950. Without China’s backing, Kim Il Sung would probably not have got Stalin’s support for such a venture either. Chiang would not have had a Taiwan problem: Mao’s rebels never had a foothold there.",
+                  "But Chiang was an ardent nationalist. His relationship with Japan would have been fraught. Millions of Chinese had been killed during Japan’s occupation of China, with the KMT rather than Mao’s forces suffering by far the worst casualties. Animosities between China and Japan, which Mao did not appear eager to play up—might have bedevilled east Asian security long before they did emerge in the 1990s as a source of regional tension. Chiang’s domination of Taiwan as well as the mainland would have given him control over the shipping lanes on which the economy of Japan depends. America’s restraining hand in the region may still have been needed.",
+                  "The cold war might have turned hotter too. Chiang did not accept the Soviet Union’s control of Mongolia. Under Mao, brief battles broke out on the Chinese-Soviet border in the 1960s. They might have turned bigger and bloodier under Chiang. The Chinese public, indoctrinated by the KMT into a belief that Mongolia was China’s, might have clamoured for their government to assert the claim more forcefully once the Soviet threat was gone.",
+                  "But China by then may have become a more politically liberal country. Moves towards democracy would have been slowed by fears of secessionism, especially in Tibet and other ethnic-minority regions (many Taiwanese would have been chafing at the KMT’s rule; they had begun to even before Chiang fled to the island). But a middle class would have grown far sooner than it has under the Communists.",
+                  "Despite the autocratic rule of Chiang’s KMT, China would have remained an ally of America. Asia would therefore not be riven as it is today by a struggle for supremacy between America and China. Perhaps even Japan would be learning to live with its powerful, rich neighbour.",
+                  "Much of the tension that now plagues Asia relates to the nature of China’s Communist Party. Neighbouring countries worry about the way the party behaves: secretively, high-handedly and sometimes (at home at any rate) brutally. But all of them fear what might happen were the party now to follow the KMT’s path and liberalise. The KMT was voted out of power in Taiwan in 2000, before returning in 2008. It is likely to be voted out again next year. Few in Asia believe that the Communist Party could ever accept the vagaries of democratic politics. Its eventual demise might well involve bloody tumult; a return, even, to the chaos of the 1940s. The rest of Asia would prefer the devil it knows."
+                  ]
               }
             }
           ]
