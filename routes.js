@@ -50,4 +50,4 @@ export default (
     <Route name="article" path="article/:id" handler={Article}/>
     <Route name="404" path="*" handler={NotFound}/>
   </Route>
-)
+);

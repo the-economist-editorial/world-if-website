@@ -1,4 +1,4 @@
-/* eslint no-console: 0 */
+/* eslint no-var: 0, object-shorthand: 0, strict: 0 */
 'use strict';
 require('babel/register');
 var config = require('npcp');
@@ -28,7 +28,7 @@ module.exports = require('connect')()
     response.end(stats);
   })
   .use('/content', require('@economist/connect-filter-jsonapi')({
-    content: contentjson.data[0].relationships.posts.data
+    content: contentjson.data[0].relationships.posts.data,
   }))
   .use('/' + config.server.assets.uri, require('st')({
     path: path.resolve(config.server.root, config.server.assets.dir),
