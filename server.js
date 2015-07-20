@@ -3,13 +3,15 @@
 require('babel/register');
 var config = require('npcp');
 var path = require('path');
+var url = require('url');
+var React = require('react');
+var App = require('@economist/component-world-if-app');
 var packagejson = require('./package');
 var contentjson = require('./content');
 var log = require('bunyan-request-logger')({
   name: packagejson.name,
 });
 log.info(config, 'booting with config');
-var template = require('handlebars').compile(require('fs').readFileSync('layout.html', 'utf8'));
 var stats = packagejson.stats;
 stats.name = packagejson.name;
 stats.version = packagejson.version;
@@ -23,6 +25,16 @@ module.exports = require('connect')()
     level: 9,
   }))
   .use(log.requestLogger())
+  .use('/application.manifest', require('connect-cache-manifest')({
+    manifestPath: '/',
+    files: [
+      {
+        dir: path.resolve(config.server.root, config.server.assets.dir),
+        prefix: '/' + config.server.assets.uri + '/',
+      },
+    ],
+    networks: [ '*' ],
+  }))
   .use('/_stats', function sendStats(request, response) {
     response.setHeader('Content-Type', 'application/json');
     response.end(stats);
@@ -34,25 +46,24 @@ module.exports = require('connect')()
     path: path.resolve(config.server.root, config.server.assets.dir),
     gzip: false,
   }))
-  .use(require('@economist/connect-react-router-middleware')({
-    routes: require('./routes'),
-    template: function processTemplate(html) {
-      return template({
-        content: contentjson.data[0],
-        assets: {
-          'css': {
-            files: require('./css-assets'),
-            inline: require('./css-inline'),
-          },
-          'js': {
-            files: require('./js-assets'),
-            inline: require('./js-inline'),
-          },
-        },
-        html: html,
-      });
-    },
-  }))
+  .use(function handleReactRouterComponent(req, res, next) {
+    try {
+      res.end(
+        '<!doctype html>' +
+        React.renderToString(
+          React.createElement(App, {
+            path: url.parse(req.url).pathname,
+            styles: require('./css-assets'),
+            inlineStyles: require('./css-inline'),
+            scripts: require('./js-assets'),
+            inlineScripts: require('./js-inline'),
+          })
+        )
+      );
+    } catch(err) {
+      return next(err);
+    }
+  })
   .use(log.errorLogger());
 if (require.main === module) {
   module.exports.listen(config.server.port, function serve() {

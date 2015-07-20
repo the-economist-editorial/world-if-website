@@ -1,7 +1,10 @@
 import React from 'react';
-import routes from './routes';
-import Router from 'react-router';
+import App from '@economist/component-world-if-app';
 /* eslint-env browser */
-Router.run(routes, Router.HistoryLocation, (Handler) => {
-  React.render(<Handler/>, document.getElementById('app'));
-});
+React.render(React.createElement(App, {
+  path: window.location.pathname,
+  styles: require('./css-assets'),
+  inlineStyles: require('./css-inline'),
+  scripts: require('./js-assets'),
+  inlineScripts: require('./js-inline'),
+}), document);
