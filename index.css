@@ -1,5 +1,1 @@
-body {
-  margin: 0;
-}
-
-@import "@economist/component-world-if-app";
+@import "@economist/component-world-if-html";

@@ -5,7 +5,6 @@ var config = require('npcp');
 var path = require('path');
 var url = require('url');
 var React = require('react');
-var App = require('@economist/component-world-if-app');
 var packagejson = require('./package');
 var contentjson = require('./content');
 var log = require('bunyan-request-logger')({
@@ -16,6 +15,12 @@ var stats = packagejson.stats;
 stats.name = packagejson.name;
 stats.version = packagejson.version;
 stats = JSON.stringify(stats);
+
+var HTML = require('@economist/component-world-if-html');
+contentjson.data[0].relationships.posts.data.forEach(function addArticle(article) {
+  HTML.store.add(article);
+});
+
 // connect and middleware
 module.exports = require('connect')()
   .use(require('serve-favicon')(
@@ -50,8 +55,8 @@ module.exports = require('connect')()
     try {
       res.end(
         '<!doctype html>' +
-        React.renderToString(
-          React.createElement(App, {
+        React.renderToStaticMarkup(
+          React.createElement(HTML, {
             path: url.parse(req.url).pathname,
             styles: require('./css-assets'),
             inlineStyles: require('./css-inline'),
