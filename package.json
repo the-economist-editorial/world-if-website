@@ -38,7 +38,7 @@
     "start": "node server.js",
     "watch": "nodemon -x \"npm run build; npm start | bunyan\" -i assets -i node_modules/ -e js,html,css",
     "clean": "rm assets/* && git checkout assets/favicon.ico",
-    "build": "parallelshell \"#npm run build:assets\" \"npm run build:js\" \"npm run build:css\" \"npm run version\"",
+    "build": "parallelshell \"npm run build:assets\" \"npm run build:js\" \"npm run build:css\" \"npm run version\"",
     "build:js": "echo {} > js-assets.json && parallelshell \"npm run build:js:client\" \"npm run build:js:vendor\" \"npm run build:js:analyticsscript\" \"npm run build:js:inline\"",
     "build:js:analyticsscript": "json -f js-assets.json -IAe 'this.ga=\"/www.google-analytics.com/analytics.js\"'",
     "build:js:vendor": "browserify -r react -g envify -g uglifyify | hashmark -l 8 -m js-assets.json -n 0vendor.js 'assets/{hash}{ext}'",
