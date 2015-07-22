@@ -21,7 +21,8 @@
   },
   "stats": {
     "build_number": "__dev__",
-    "commit_id": "__dev__"
+    "commit_id": "__dev__",
+    "built_at": "__dev__"
   },
   "config": {
     "analytics_code": "window.onload=function(){window.GoogleAnalyticsObject='ga';ga('create', 'UA-XXXXX-X', 'auto');ga('send', 'pageview')}",
@@ -50,7 +51,7 @@
     "build:css:inline": "echo [] > css-inline.json",
     "build:assets": "npm-assets .",
     "push:inline": "json -f ${TYPE}-inline.json -IAe \"this.push(process.env.CONTENTS)\"",
-    "version": "json -f package.json -IAe \"this.stats.build_number='${CI_BUILD_NUMBER:-__dev__}';this.stats.commit_id='${CI_COMMIT_ID:-__dev__}'\"",
+    "version": "json -f package.json -IAe \"this.stats.build_number='${CI_BUILD_NUMBER:-__dev__}';this.stats.commit_id='${CI_COMMIT_ID:-__dev__}';this.stats.built_at=new Date().toJSON()\"",
     "lint": "eslint $npm_package_config_lint_opts .",
     "serve": "npm run prestart && nodemon",
     "test": "exit 0; # no tests yet! npm run test:base -- -R tap",
