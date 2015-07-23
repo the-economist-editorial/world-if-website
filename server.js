@@ -6,7 +6,7 @@ var path = require('path');
 var url = require('url');
 var React = require('react');
 var packagejson = require('./package');
-var contentjson = require('./content');
+var contentjson = require('@economist/world-if-assets');
 var log = require('bunyan-request-logger')({
   name: packagejson.name,
 });
