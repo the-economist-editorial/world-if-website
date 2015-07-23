@@ -62,7 +62,7 @@
     "@economist/component-world-if-app": "^4.0.11",
     "@economist/component-world-if-html": "^2.0.0",
     "@economist/connect-filter-jsonapi": "^1.0.1",
-    "@economist/world-if-assets": "0.0.2",
+    "@economist/world-if-assets": "0.0.3",
     "babel": "^5.5.8",
     "bunyan": "^1.4.0",
     "bunyan-middleware": "^0.2.0",
