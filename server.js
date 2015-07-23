@@ -50,6 +50,9 @@ module.exports = require('connect')()
   .use('/' + config.server.assets.uri, require('st')({
     path: path.resolve(config.server.root, config.server.assets.dir),
     gzip: false,
+    passthrough: true,
+    dot: false,
+    index: false,
   }))
   .use(function handleReactRouterComponent(req, res, next) {
     try {
