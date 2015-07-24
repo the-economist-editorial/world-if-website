@@ -17,9 +17,7 @@ stats.version = packagejson.version;
 stats = JSON.stringify(stats);
 
 var HTML = require('@economist/component-world-if-html');
-contentjson.data[0].relationships.posts.data.forEach(function addArticle(article) {
-  HTML.store.add(article);
-});
+HTML.store.setContent(contentjson);
 
 // connect and middleware
 module.exports = require('connect')()
