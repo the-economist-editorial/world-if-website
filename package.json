@@ -59,8 +59,8 @@
     "test:watch": "npm run test:base -- -wR min"
   },
   "dependencies": {
-    "@economist/component-world-if-app": "^4.0.11",
-    "@economist/component-world-if-html": "^2.0.0",
+    "@economist/component-world-if-app": "^4.1.0",
+    "@economist/component-world-if-html": "^2.1.0",
     "@economist/connect-filter-jsonapi": "^1.0.1",
     "@economist/world-if-assets": "0.0.4",
     "babel": "^5.5.8",
