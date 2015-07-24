@@ -25,7 +25,7 @@
     "built_at": "__dev__"
   },
   "config": {
-    "analytics_code": "window.onload=function(){window.GoogleAnalyticsObject='ga';ga('create', 'UA-XXXXX-X', 'auto');ga('send', 'pageview')}",
+    "analytics_code": "window.onload=function(){window.ga&&ga('create', 'UA-XXXXX-X', 'auto')||ga('send', 'pageview')}",
     "lint_opts": "--ignore-path .gitignore",
     "server_assets_dir": "assets",
     "server_assets_uri": "assets",
