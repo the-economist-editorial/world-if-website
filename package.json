@@ -22,7 +22,7 @@
   "stats": {
     "build_number": "__dev__",
     "commit_id": "__dev__",
-    "built_at": "__dev__"
+    "built_at": "2015-07-25T17:18:27.564Z"
   },
   "config": {
     "analytics_code": "window.onload=function(){window.ga&&ga('create', 'UA-XXXXX-X', 'auto')||ga('send', 'pageview')}",
@@ -60,7 +60,7 @@
   },
   "dependencies": {
     "@economist/component-articlestore": "^1.1.2",
-    "@economist/component-world-if-app": "^4.4.0",
+    "@economist/component-world-if-app": "^4.6.1",
     "@economist/component-world-if-html": "^2.3.0",
     "@economist/connect-filter-jsonapi": "^1.0.1",
     "@economist/world-if-assets": "^0.0.8",
