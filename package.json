@@ -38,6 +38,7 @@
   "scripts": {
     "start": "node server.js",
     "watch": "nodemon -x \"npm run build; npm start | bunyan\" -i assets -i node_modules/ -e js,html,css",
+    "serve": "npm run watch",
     "clean": "rm assets/* && git checkout assets/favicon.ico",
     "build": "parallelshell \"npm run build:assets\" \"npm run build:js\" \"npm run build:css\" \"npm run version\"",
     "build:js": "echo {} > js-assets.json && parallelshell \"npm run build:js:client\" \"npm run build:js:vendor\" \"npm run build:js:analyticsscript\" \"npm run build:js:inline\"",
@@ -53,7 +54,6 @@
     "push:inline": "json -f ${TYPE}-inline.json -IAe \"this.push(process.env.CONTENTS)\"",
     "version": "json -f package.json -IAe \"this.stats.build_number='${CI_BUILD_NUMBER:-__dev__}';this.stats.commit_id='${CI_COMMIT_ID:-__dev__}';this.stats.built_at=new Date().toJSON()\"",
     "lint": "eslint $npm_package_config_lint_opts .",
-    "serve": "npm run prestart && nodemon",
     "test": "exit 0; # no tests yet! npm run test:base -- -R tap",
     "test:base": "mocha -r babel/register -r @economist/component-testharness",
     "test:watch": "npm run test:base -- -wR min"
