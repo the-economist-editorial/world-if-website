@@ -39,7 +39,7 @@ module.exports = require('connect')()
     networks: [ '*' ],
   }))
   .use('/_stats', function sendStats(request, response) {
-    response.setHeader('Content-Type', 'application/json');
+    response.setHeader('Content-Type', 'application/json;charset=utf-8');
     response.end(stats);
   })
   .use('/content', require('@economist/connect-filter-jsonapi')({
@@ -52,13 +52,14 @@ module.exports = require('connect')()
     dot: false,
     index: false,
   }))
-  .use(function handleReactRouterComponent(req, res, next) {
+  .use(function handleReactRouterComponent(request, response, next) {
     try {
-      res.end(
+      response.setHeader('Content-Type', 'text/html;charset=utf-8');
+      response.end(
         '<!doctype html>' +
         React.renderToStaticMarkup(
           React.createElement(HTML, {
-            path: url.parse(req.url).pathname,
+            path: url.parse(request.url).pathname,
             styles: require('./css-assets'),
             inlineStyles: require('./css-inline'),
             scripts: require('./js-assets'),
