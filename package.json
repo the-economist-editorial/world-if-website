@@ -60,8 +60,8 @@
   },
   "dependencies": {
     "@economist/component-articlestore": "^1.1.2",
-    "@economist/component-world-if-app": "^4.4.0",
-    "@economist/component-world-if-html": "^2.3.0",
+    "@economist/component-world-if-app": "^5.0.0",
+    "@economist/component-world-if-html": "^3.0.0",
     "@economist/connect-filter-jsonapi": "^1.0.2",
     "@economist/world-if-assets": "^0.0.8",
     "babel": "^5.5.8",

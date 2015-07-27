@@ -52,6 +52,21 @@ module.exports = require('connect')()
     dot: false,
     index: false,
   }))
+  .use('/article', function redirectArticleRoutesToSlugifiedVersions(request, response, next) {
+    var pathParts = url.parse(request.url).pathname.match(/([^\/]+)/g);
+    if (pathParts) {
+      var id = pathParts[0];
+      var slug = pathParts[1];
+      var articleSlug = ((HTML.store.get(id) || {}).attributes || {}).slug;
+      if (articleSlug && slug !== articleSlug) {
+        response.writeHead(301, {
+          'Location': '/article/' + id + '/' + articleSlug,
+        });
+        return response.end();
+      }
+    }
+    next();
+  })
   .use(function handleReactRouterComponent(request, response, next) {
     try {
       response.setHeader('Content-Type', 'text/html;charset=utf-8');
