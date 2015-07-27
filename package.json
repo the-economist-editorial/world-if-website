@@ -63,10 +63,10 @@
   "dependencies": {
     "@economist/component-articlestore": "^1.1.2",
     "@economist/component-font-neutra2": "^1.0.4",
-    "@economist/component-world-if-app": "^5.0.1",
+    "@economist/component-world-if-app": "^5.1.0",
     "@economist/component-world-if-html": "^3.0.0",
     "@economist/connect-filter-jsonapi": "^1.0.2",
-    "@economist/world-if-assets": "0.0.9",
+    "@economist/world-if-assets": "0.0.12",
     "babel": "^5.5.8",
     "bunyan": "^1.4.0",
     "bunyan-middleware": "^0.2.0",
