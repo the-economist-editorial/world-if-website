@@ -20,7 +20,29 @@ var HTML = require('@economist/component-world-if-html');
 HTML.store.setContent(require('@economist/world-if-assets'));
 
 // connect and middleware
-module.exports = require('connect')()
+module.exports = require('connect')();
+
+if (packagejson.protected && packagejson.protected.users && packagejson.protected.users.length) {
+  var auth = require('basic-auth');
+  module.exports.use(function basicAuth(request, response, next) {
+    var credentials = auth(request);
+    if (credentials && credentials.name && credentials.pass) {
+      var validUsers = packagejson.protected.users.filter(function findValidUser(user) {
+        return user.name === credentials.name &&
+          user.pass === credentials.pass;
+      });
+      if (validUsers.length === 1) {
+        return next();
+      }
+    }
+    response.writeHead(401, {
+      'WWW-Authenticate': 'Basic realm="worldif"',
+    });
+    return response.end('Access Denied');
+  });
+}
+
+module.exports
   .use(require('serve-favicon')(
     path.join(__dirname, 'assets', 'favicon.ico')
   ))

@@ -19,6 +19,14 @@
       ]
     ]
   },
+  "protected": {
+    "users": [
+      {
+        "name": "worldif",
+        "pass": "worldif"
+      }
+    ]
+  },
   "stats": {
     "build_number": "__dev__",
     "commit_id": "__dev__",
@@ -68,6 +76,7 @@
     "@economist/component-world-if-html": "^4.0.0",
     "@economist/world-if-assets": "0.0.13",
     "babel": "^5.5.8",
+    "basic-auth": "^1.0.3",
     "bunyan": "^1.4.0",
     "bunyan-middleware": "^0.2.0",
     "bunyan-request-logger": "^1.0.1",
