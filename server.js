@@ -102,7 +102,18 @@ module.exports = require('connect')()
       return next(err);
     }
   })
-  .use(log.errorLogger());
+  .use(process.env.NODE_ENV === 'production' ?
+    function productionError(error, request, response, next) {
+      error.requestId = request && request.requestId;
+      log.error({ err: error });
+      response.writeHead(302, {
+        'Location': '/',
+      });
+      response.end('Unexpected error');
+      next();
+    } :
+    log.errorLogger()
+  );
 if (require.main === module) {
   module.exports.listen(config.server.port, function serve() {
     var address = this.address();
