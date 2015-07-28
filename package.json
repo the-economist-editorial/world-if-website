@@ -67,7 +67,6 @@
     "@economist/component-font-neutra2": "^1.0.4",
     "@economist/component-world-if-app": "^6.0.0",
     "@economist/component-world-if-html": "^4.0.0",
-    "@economist/connect-filter-jsonapi": "^1.0.2",
     "@economist/world-if-assets": "0.0.13",
     "babel": "^5.5.8",
     "bunyan": "^1.4.0",

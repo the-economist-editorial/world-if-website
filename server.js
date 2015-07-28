@@ -7,7 +7,6 @@ var path = require('path');
 var url = require('url');
 var React = require('react');
 var packagejson = require('./package');
-var contentjson = require('@economist/world-if-assets');
 var log = require('bunyan-request-logger')({
   name: packagejson.name,
 });
@@ -18,7 +17,7 @@ stats.version = packagejson.version;
 stats = JSON.stringify(stats);
 
 var HTML = require('@economist/component-world-if-html');
-HTML.store.setContent(contentjson);
+HTML.store.setContent(require('@economist/world-if-assets'));
 
 // connect and middleware
 module.exports = require('connect')()
@@ -43,9 +42,6 @@ module.exports = require('connect')()
     response.setHeader('Content-Type', 'application/json;charset=utf-8');
     response.end(stats);
   })
-  .use('/content', require('@economist/connect-filter-jsonapi')({
-    content: contentjson.data[0].relationships.posts.data,
-  }))
   .use('/' + config.server.assets.uri, require('st')({
     path: path.resolve(config.server.root, config.server.assets.dir),
     cache: {
