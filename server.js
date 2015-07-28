@@ -69,12 +69,12 @@ module.exports = require('connect')()
   .use('/article', function redirectArticleRoutesToSlugifiedVersions(request, response, next) {
     var pathParts = url.parse(request.url).pathname.match(/([^\/]+)/g);
     if (pathParts) {
-      var id = pathParts[0];
-      var slug = pathParts[1];
+      var id = decodeURIComponent(pathParts[0]);
+      var slug = decodeURIComponent(pathParts[1]);
       var articleSlug = ((HTML.store.get(id) || {}).attributes || {}).slug;
       if (articleSlug && slug !== articleSlug) {
         response.writeHead(301, {
-          'Location': '/article/' + id + '/' + articleSlug,
+          'Location': '/article/' + id + '/' + encodeURIComponent(articleSlug),
         });
         return response.end();
       }
