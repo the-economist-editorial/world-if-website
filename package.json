@@ -25,7 +25,6 @@
     "built_at": "__dev__"
   },
   "config": {
-    "analytics_code": "window.onload=function(){window.ga&&ga('create','UA-XXXXX-X','auto')||ga('send','pageview')}",
     "cookie_code": "{\"message\":\"Our cookie policy has changed. By continuing to browse this site you are agreeing to our use of cookies.\",\"learnMore\":\"Review our cookies policy for more details and to change your cookie preference.\",\"link\":\"http://www.economist.com/cookies-info\"}",
     "lint_opts": "--ignore-path .gitignore",
     "server_assets_dir": "assets",
@@ -43,11 +42,10 @@
     "clean": "rm assets/* && git checkout assets/favicon.ico",
     "build": "parallelshell \"npm run build:assets\" \"npm run build:js\" \"npm run build:css\" \"npm run build:cookie\" \"npm run version\"",
     "build:js": "echo {} > js-assets.json && parallelshell \"npm run build:js:client\" \"npm run build:js:vendor\" \"npm run build:js:remotescripts\" \"npm run build:js:inline\"",
-    "build:js:remotescripts": "json -f js-assets.json -IAe 'this.ga=\"/www.google-analytics.com/analytics.js\";this.gads=\"/www.googletagservices.com/tag/js/gpt.js\";this.cookie=\"//s3.amazonaws.com/cc.silktide.com/cookieconsent.latest.min.js\"'",
+    "build:js:remotescripts": "json -f js-assets.json -IAe 'this[\"1gads\"]=\"/www.googletagservices.com/tag/js/gpt.js\"'",
     "build:js:vendor": "browserify -g envify -g uglifyify -r react -r react/lib/ReactUpdates | hashmark -l 8 -m js-assets.json -n 0vendor.js 'assets/{hash}{ext}'",
-    "build:js:client": "browserify `test \"$NODE_ENV\" != \"production\" && echo '-d'` -g envify -g uglifyify -x react -x react/lib/ReactUpdates client.js | hashmark -l 8 -m js-assets.json -n client.js 'assets/{hash}{ext}'",
-    "build:js:inline": "echo [] > js-inline.json && npm run build:js:inline:analyticscode",
-    "build:js:inline:analyticscode": "CONTENTS=$npm_package_config_analytics_code TYPE=js npm run push:inline",
+    "build:js:client": "browserify `test \"$NODE_ENV\" != \"production\" && echo '-d'` -g envify -g uglifyify -x react -x react/lib/ReactUpdates client.js | hashmark -l 8 -m js-assets.json -n 5client.js 'assets/{hash}{ext}'",
+    "build:js:inline": "echo [] > js-inline.json",
     "build:css": "echo {} > css-assets.json && parallelshell \"npm run build:css:inline\" \"npm run build:css:client\"",
     "build:css:client": "postcss -u cssnext -u cssnano -u postcss-nesting index.css | hashmark -l 8 -m css-assets.json -n style.css 'assets/{hash}{ext}'",
     "build:css:inline": "echo [] > css-inline.json",
