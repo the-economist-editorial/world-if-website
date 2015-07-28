@@ -20,7 +20,11 @@ var HTML = require('@economist/component-world-if-html');
 HTML.store.setContent(require('@economist/world-if-assets'));
 
 // connect and middleware
-module.exports = require('connect')();
+module.exports = require('connect')()
+  .use('/_stats', function sendStats(request, response) {
+    response.setHeader('Content-Type', 'application/json;charset=utf-8');
+    response.end(stats);
+  });
 
 if (packagejson.protected && packagejson.protected.users && packagejson.protected.users.length) {
   var auth = require('basic-auth');
@@ -63,10 +67,6 @@ module.exports
     ],
     networks: [ '*' ],
   }))
-  .use('/_stats', function sendStats(request, response) {
-    response.setHeader('Content-Type', 'application/json;charset=utf-8');
-    response.end(stats);
-  })
   .use('/' + config.server.assets.uri, require('st')({
     path: path.resolve(config.server.root, config.server.assets.dir),
     cache: {
