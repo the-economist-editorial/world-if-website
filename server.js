@@ -84,6 +84,7 @@ module.exports = require('connect')()
   .use(function handleReactRouterComponent(request, response, next) {
     try {
       response.setHeader('Content-Type', 'text/html;charset=utf-8');
+      response.setHeader('Cache-Control', 'public, max-age=3600');
       response.end(
         '<!doctype html>' +
         React.renderToStaticMarkup(
