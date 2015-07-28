@@ -65,7 +65,7 @@
   "dependencies": {
     "@economist/component-articlestore": "^2.0.0",
     "@economist/component-font-neutra2": "^1.0.4",
-    "@economist/component-world-if-app": "^6.0.0",
+    "@economist/component-world-if-app": "^6.0.1",
     "@economist/component-world-if-html": "^4.0.0",
     "@economist/world-if-assets": "0.0.13",
     "babel": "^5.5.8",
