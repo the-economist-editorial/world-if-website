@@ -1,6 +1,7 @@
 /* eslint no-var: 0, object-shorthand: 0, strict: 0 */
 'use strict';
 require('babel/register');
+var ONE_YEAR = 3.15569e10;
 var config = require('npcp');
 var path = require('path');
 var url = require('url');
@@ -47,6 +48,20 @@ module.exports = require('connect')()
   }))
   .use('/' + config.server.assets.uri, require('st')({
     path: path.resolve(config.server.root, config.server.assets.dir),
+    cache: {
+      fd: {
+        maxAge: ONE_YEAR,
+      },
+      stats: {
+        maxAge: ONE_YEAR,
+      },
+      content: {
+        maxAge: ONE_YEAR,
+      },
+      readdir: {
+        maxAge: ONE_YEAR,
+      },
+    },
     gzip: false,
     passthrough: true,
     dot: false,
