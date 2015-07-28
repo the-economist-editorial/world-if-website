@@ -81,6 +81,7 @@ module.exports = require('connect')()
     }
     next();
   })
+  .use(require('etagify')())
   .use(function handleReactRouterComponent(request, response, next) {
     try {
       response.setHeader('Content-Type', 'text/html;charset=utf-8');
