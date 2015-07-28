@@ -34,6 +34,9 @@ module.exports = require('connect')()
       {
         dir: path.resolve(config.server.root, config.server.assets.dir),
         prefix: '/' + config.server.assets.uri + '/',
+        ignore: function ignoreImages(file) {
+          return !/\.(js|css|otf)$/.test(file);
+        },
       },
     ],
     networks: [ '*' ],
