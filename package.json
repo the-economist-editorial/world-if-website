@@ -72,9 +72,9 @@
   "dependencies": {
     "@economist/component-articlestore": "^2.0.0",
     "@economist/component-font-neutra2": "^1.0.4",
-    "@economist/component-world-if-app": "^7.0.0",
-    "@economist/component-world-if-html": "^5.0.0",
-    "@economist/world-if-assets": "0.0.1438166213007",
+    "@economist/component-world-if-app": "^8.1.0",
+    "@economist/component-world-if-html": "^6.0.0",
+    "@economist/world-if-assets": "0.0.1438172554210",
     "babel": "^5.5.8",
     "basic-auth": "^1.0.3",
     "bunyan": "^1.4.0",
