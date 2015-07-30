@@ -19,14 +19,6 @@
       ]
     ]
   },
-  "protected": {
-    "users": [
-      {
-        "name": "worldif",
-        "pass": "worldif"
-      }
-    ]
-  },
   "stats": {
     "build_number": "__dev__",
     "commit_id": "__dev__",
