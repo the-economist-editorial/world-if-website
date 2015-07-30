@@ -1,3 +1,4 @@
+require('svg4everybody');
 import React from 'react';
 import App from '@economist/component-world-if-app';
 import ArticleStore from '@economist/component-articlestore';
