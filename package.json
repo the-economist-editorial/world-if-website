@@ -81,7 +81,8 @@
     "npcp": "^0.1.0-2",
     "react": "^0.13.3",
     "serve-favicon": "^2.3.0",
-    "st": "^0.5.5"
+    "st": "^0.5.5",
+    "svg4everybody": "^1.0.0"
   },
   "devDependencies": {
     "@economist/component-testharness": "^1.0.0",
