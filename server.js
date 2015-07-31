@@ -113,6 +113,7 @@ module.exports
         React.renderToStaticMarkup(
           React.createElement(HTML, {
             path: url.parse(request.url).pathname,
+            title: 'The World If: A compilation of scenarios',
             styles: require('./css-assets'),
             inlineStyles: require('./css-inline'),
             scripts: require('./js-assets'),
