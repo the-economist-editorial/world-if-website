@@ -67,6 +67,9 @@ module.exports
     ],
     networks: [ '*' ],
   }))
+  .use('/' + config.server.assets.uri, require('accept-webp')(
+    path.resolve(config.server.root, config.server.assets.dir)
+  ))
   .use('/' + config.server.assets.uri, require('st')({
     path: path.resolve(config.server.root, config.server.assets.dir),
     cache: {
