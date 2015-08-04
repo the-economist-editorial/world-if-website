@@ -61,12 +61,15 @@ module.exports
         dir: path.resolve(config.server.root, config.server.assets.dir),
         prefix: '/' + config.server.assets.uri + '/',
         ignore: function ignoreImages(file) {
-          return !/\.(js|css|otf)$/.test(file);
+          return !/\.(js|css|otf|svg)$/.test(file);
         },
       },
     ],
     networks: [ '*' ],
   }))
+  .use('/' + config.server.assets.uri, require('accept-webp')(
+    path.resolve(config.server.root, config.server.assets.dir)
+  ))
   .use('/' + config.server.assets.uri, require('st')({
     path: path.resolve(config.server.root, config.server.assets.dir),
     cache: {
@@ -113,6 +116,8 @@ module.exports
         React.renderToStaticMarkup(
           React.createElement(HTML, {
             path: url.parse(request.url).pathname,
+            title: 'The World If: A compilation of scenarios',
+            description: 'The World If: A compilation of scenarios',
             styles: require('./css-assets'),
             inlineStyles: require('./css-inline'),
             scripts: require('./js-assets'),

@@ -1,7 +1,7 @@
 {
   "name": "@economist/world-if-website",
   "private": true,
-  "version": "1.0.1",
+  "version": "1.2.0",
   "description": "The World If website",
   "author": "The Economist (http://economist.com)",
   "license": "MIT",
@@ -19,18 +19,10 @@
       ]
     ]
   },
-  "protected": {
-    "users": [
-      {
-        "name": "worldif",
-        "pass": "worldif"
-      }
-    ]
-  },
   "stats": {
     "build_number": "__dev__",
     "commit_id": "__dev__",
-    "built_at": "2015-07-25T17:18:27.564Z"
+    "built_at": "2015-08-03T09:01:59.180Z"
   },
   "config": {
     "cookie_code": "{\"message\":\"Our cookie policy has changed. By continuing to browse this site you are agreeing to our use of cookies.\",\"learnMore\":\"Review our cookies policy for more details and to change your cookie preference.\",\"link\":\"http://www.economist.com/cookies-info\"}",
@@ -72,10 +64,11 @@
   "dependencies": {
     "@economist/component-articlestore": "^2.0.0",
     "@economist/component-font-neutra2": "^1.0.4",
-    "@economist/component-world-if-app": "^8.1.0",
-    "@economist/component-world-if-html": "^6.0.0",
-    "@economist/world-if-assets": "0.0.1438187093644",
-    "babel": "^5.5.8",
+    "@economist/component-world-if-app": "^8.1.9",
+    "@economist/component-world-if-html": "^6.0.1",
+    "@economist/world-if-assets": "0.0.1438613157807",
+    "accept-webp": "^1.4.0",
+    "babel": "^5.8.19",
     "basic-auth": "^1.0.3",
     "bunyan": "^1.4.0",
     "bunyan-middleware": "^0.2.0",
@@ -86,14 +79,15 @@
     "debug": "^2.2.0",
     "etagify": "0.0.2",
     "express-bunyan-logger": "^1.1.1",
+    "normalize.css": "^3.0.3",
     "npcp": "^0.1.0-2",
     "react": "^0.13.3",
     "serve-favicon": "^2.3.0",
-    "st": "^0.5.4"
+    "st": "^0.5.5",
+    "svg4everybody": "^1.0.0"
   },
   "devDependencies": {
     "@economist/component-testharness": "^1.0.0",
-    "babel": "^5.8.12",
     "babelify": "^6.1.2",
     "browserify": "^11.0.0",
     "cssnano": "^2.1.1",
@@ -114,7 +108,6 @@
     "postcss-cli": "^1.5.0",
     "postcss-nesting": "^0.1.0",
     "pre-commit": "^1.0.10",
-    "st": "^0.5.5",
     "uglifyify": "^3.0.1"
   },
   "pre-commit": [
