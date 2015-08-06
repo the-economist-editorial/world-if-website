@@ -1,7 +1,7 @@
 {
   "name": "@economist/world-if-website",
   "private": true,
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "The World If website",
   "author": "The Economist (http://economist.com)",
   "license": "MIT",
@@ -22,7 +22,7 @@
   "stats": {
     "build_number": "__dev__",
     "commit_id": "__dev__",
-    "built_at": "2015-08-06T16:31:34.457Z"
+    "built_at": "2015-08-06T16:35:08.090Z"
   },
   "config": {
     "cookie_code": "{\"message\":\"Our cookie policy has changed. By continuing to browse this site you are agreeing to our use of cookies.\",\"learnMore\":\"Review our cookies policy for more details and to change your cookie preference.\",\"link\":\"http://www.economist.com/cookies-info\"}",
