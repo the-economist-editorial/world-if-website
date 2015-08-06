@@ -22,7 +22,8 @@ HTML.store.setContent(require('@economist/world-if-assets'));
 // connect and middleware
 module.exports = require('connect')()
   .use('/_stats', function sendStats(request, response) {
-    response.setHeader('Content-Type', 'application/json;charset=utf-8');
+    response.setHeader('Content-Type', 'max-age=0, must-revalidate');
+    response.setHeader('Cache-Control', 'no-cache');
     response.end(stats);
   });
 
