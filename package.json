@@ -22,7 +22,7 @@
   "stats": {
     "build_number": "__dev__",
     "commit_id": "__dev__",
-    "built_at": "2015-08-05T15:49:04.782Z"
+    "built_at": "2015-08-06T13:45:23.478Z"
   },
   "config": {
     "cookie_code": "{\"message\":\"Our cookie policy has changed. By continuing to browse this site you are agreeing to our use of cookies.\",\"learnMore\":\"Review our cookies policy for more details and to change your cookie preference.\",\"link\":\"http://www.economist.com/cookies-info\"}",
@@ -64,7 +64,7 @@
   "dependencies": {
     "@economist/component-articlestore": "^2.0.0",
     "@economist/component-font-neutra2": "^1.0.4",
-    "@economist/component-world-if-app": "^8.1.9",
+    "@economist/component-world-if-app": "^8.3.0",
     "@economist/component-world-if-html": "^6.0.1",
     "@economist/world-if-assets": "0.0.1438786471747",
     "accept-webp": "^1.4.0",
