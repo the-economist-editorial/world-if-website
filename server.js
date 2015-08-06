@@ -54,6 +54,10 @@ module.exports
     level: 9,
   }))
   .use(log.requestLogger())
+  .use('/application.manifest', function setCacheHeadersForManifest(request, response, next) {
+    response.setHeader('Cache-Control', 'public, max-age=60');
+    next();
+  })
   .use('/application.manifest', require('connect-cache-manifest')({
     manifestPath: '/',
     files: [
