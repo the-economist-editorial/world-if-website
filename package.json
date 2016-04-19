@@ -87,7 +87,6 @@
     "svg4everybody": "^1.0.0"
   },
   "devDependencies": {
-    "@economist/component-testharness": "^1.0.0",
     "babelify": "^6.1.2",
     "browserify": "^11.0.0",
     "cssnano": "^2.1.1",
