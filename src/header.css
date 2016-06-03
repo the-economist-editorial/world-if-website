@@ -1,0 +1,97 @@
+@custom-media --navigation-mobile-up (width >= 769px);
+
+.sticky {
+  z-index: 10;
+}
+
+.navigation {
+  position: relative;
+  width: 100%;
+  height: 48px;
+  font-size: 14px;
+  background: #383e42;
+  & .list,
+  & .list__item {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  @media (--navigation-mobile-up) {
+    height: 64px;
+    font-size: 16px;
+  }
+}
+
+.navigation__link-logo {
+  & .Icon-economist {
+    width: auto;
+    height: 48px;
+
+    @media (--navigation-mobile-up) {
+      height: 64px;
+    }
+  }
+}
+
+.navigation__link-logo,
+.navigation__link-sub-brand,
+.navigation__link-subscribe {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navigation__wrapper,
+.navigation__extra-inner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.navigation__wrapper,
+.navigation__link-logo,
+.navigation__menu,
+.navigation__extra {
+  height: 48px;
+
+  @media (--navigation-mobile-up) {
+    height: 64px;
+  }
+}
+
+.navigation__extra-inner {
+  justify-content: flex-end;
+}
+
+.navigation__link-subscribe,
+.navigation__hamburger {
+  padding: 0 1em;
+  align-self: center;
+}
+
+.navigation__link-sub-brand {
+  overflow: hidden;
+  position: relative;
+  width: 48px;
+  height: 48px;
+
+  @media (--navigation-mobile-up) {
+    width: 192px;
+    height: 64px;
+  }
+}
+
+.navigation__sub-brand-logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 144px;
+  height: 48px;
+
+  @media (--navigation-mobile-up) {
+    width: 192px;
+    height: 64px;
+  }
+}

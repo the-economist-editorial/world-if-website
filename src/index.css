@@ -1,0 +1,35 @@
+@import 'normalize.css';
+@import '@economist/component-navigation';
+@import '@economist/component-accordion';
+@import '@economist/component-footer';
+@import '@economist/component-typography';
+@import '@economist/component-404';
+@import '@economist/component-loading';
+@import '@economist/component-picture';
+@import '@economist/component-articletemplate';
+@import '@economist/component-gobbet';
+@import '@economist/component-video';
+@import './homepage';
+@import './article';
+@import './header';
+@import './cookie';
+
+/* stylelint-disable selector-no-type */
+/* */
+
+body {
+  margin: 0;
+  font-smoothing: antialiased;
+}
+
+/* stylelint-enable selector-no-type */
+
+.navigation {
+  z-index: 10;
+}
+
+.ec-footer__wrapper,
+.navigation__wrapper {
+  max-width: 1190px;
+  margin: 0 auto;
+}
